@@ -1,3 +1,66 @@
 h2 {
     color: blue;
 }
+
+h1 {
+    text-align: center;
+    font-style: oblique;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #c2efef;
+}
+
+#NavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline; /*By default, <li> elements are block elements. Here, we remove the line breaks before and after each list item, to display them on one line*/
+    overflow: hidden; /*overflow:hidden is added to the ul element to prevent li elements from going outside of the list.*/
+}
+
+#NavBar li {
+    float: left; /*use float to get block elements to slide next to each other*/
+    background-color: purple; /*Add a purple background-color to each a element*/
+}
+
+#NavBar li a{
+    display: block; /*Allows us to specify padding (and height, width, margins, etc.)*/
+    padding: 8px;   /*Since block elements take up the full width available, they cannot float next to each other. Therefore, specify some padding to make them look good*/
+    text-decoration: none; /*Removes the underline that hyperlinks have*/
+    color: white;
+}
+
+#NavBar li a:hover {
+    background-color: plum;
+}
+
+.fillers {
+    display: block; /*Allows us to specify padding (and height, width, margins, etc.)*/
+    padding: 8px;   /*Since block elements take up the full width available, they cannot float next to each other. Therefore, specify some padding to make them look good*/
+    text-decoration: none; /*Removes the underline that hyperlinks have*/
+    color: white;
+}
+
+#main {
+    margin: auto;
+    width: 50%;
+    background-color: plum;
+}
+
+#menu {
+    display: block;
+    margin: auto;
+    padding-left: 24.9%;
+    background-color: plum;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+
