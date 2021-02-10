@@ -37,12 +37,6 @@ body {
     background-color: plum;
 }
 
-.fillers {
-    display: block; /*Allows us to specify padding (and height, width, margins, etc.)*/
-    padding: 8px;   /*Since block elements take up the full width available, they cannot float next to each other. Therefore, specify some padding to make them look good*/
-    text-decoration: none; /*Removes the underline that hyperlinks have*/
-    color: white;
-}
 
 #main {
     margin: auto;
@@ -51,10 +45,8 @@ body {
 }
 
 #menu {
-    display: block;
-    margin: auto;
-    padding-left: 24.9%;
-    background-color: plum;
+    display: flex;
+    justify-content: center;
 }
 
 #logo {
@@ -63,4 +55,16 @@ body {
     width: 30%;
 }
 
+img.infoImage:hover {
+  width: 20%;
+  height: 20%;
+  padding: 3%;
+}
 
+.infoImage {
+    float: right;
+    display: block;
+    margin: auto;
+    padding-right: 10%;
+    padding-top: 10%;
+}
