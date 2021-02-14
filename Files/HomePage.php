@@ -11,7 +11,9 @@
 <body>
 <!------------------------------------------ LOGO -------------------------------------------------------->
     <?php 
-        echo "<img id='logo' src='logo_bw.png'>"; 
+        echo "<a href='HomePage.php'>
+                <img id='logo' src='logo_bw.png'>
+              </a>";  
     ?><br>
 <!---------------------------------------- MENU BAR ------------------------------------------------------>
     <div id="menu">
@@ -32,24 +34,15 @@
     <div id="main">
         <h2>Welcome to the home page</h2>
         <p>
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
-        SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT 
+        It is our great pleasure that it has been possible for the University of Pireaus to organise the 1st international conference on Web Technologies in Athens, which is a conference on the topic of all application related to the web.
+        
+        It is more or less impossible to plan a conference in a foreign country without a local partner. For this reason, it was a special pleasure that the Institute of Information Technologies helped us with words and deeds. We are grateful to Ms. Prof. Dr.  Thekla Nefeli and Mr. Dr.  Neofytos Marinos  for this support.
+
+        We would therefore like to extend a heartfelt thank you to the University of Athens and representatives of the various labs for their understanding and support, most notably Ms. Dr. Effrosyni Kontos , Ms. Dr.  Agni Pachis , Ms. Dr.  Angelina Marinos , Mr. Dr. Elias Papadopoulos , Ms. Dr.  Ismini Stavros .
+
+        The goal of the conference is to bring scientists from various disciplines together for a fruitful exchange of ideas.
+
+        We wish you all an interesting, fruitful and harmonious conference in Athens.
         </p>
     </div>
 </body>
