@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Registration</title>
-<link rel="stylesheet" type="text/css" href="style_erg3a.css" >
+    <title>Registration form</title>
+    <style>
+        <?php 
+         include 'Style.css'; 
+        ?>
+    </style>
 </head>
-
 <body>
+<!------------------------------------------ LOGO -------------------------------------------------------->
+    <?php 
+        echo "<a href='HomePage.php'>
+                <img id='logo' src='logo_bw.png'>
+              </a>";  
+    ?><br>
+<!---------------------------------------- MENU BAR ------------------------------------------------------>
+    <div id="menu">
+        <ul id="NavBar">
+            <li><a href="HomePage.php">Home</a></li>
+            <li><a href="InfoPage.php">About</a></li>
+            <li><a href="LocationPage.php">Location</a></li>
+            <li><a href="JuryPage.php">Jury</a></li>
+            <li><a href="Program.php">Program</a></li>
+            <li><a href="subscribe_form.php">Subscribe</a></li>
+        </ul>
+    </div>
+    <br>
+<!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
+    
 <form>
 
 <table id="third" >
-            <tr><td colspan="4" id="third" >Registration</td></tr>
+            <tr><td colspan="4" id="third" ><b>Registration form</b></td></tr>
         </table>
 <table id="main_table">
     <tr><td><label for="firstname">First name</label></td><td id="sec"  colspan="3"><input pattern="[A-Za-z]" placeholder="Please type in your first name" type="text" name="firstname" size="30"></tr>
@@ -218,7 +241,7 @@
             <tr><td></td><td></td><td></td><td></td><td id="third" ><input class="button" type="submit" value="Submit"></td><td id="third"></td><td id="third"><input class="button" type="reset" value="Cancel"></td>
         </table>
 
- </form>       
-        
+ </form>     
 </body>
 </html>
+    

@@ -23,7 +23,7 @@
             <li><a href="LocationPage.php">Location</a></li>
             <li><a href="JuryPage.php">Jury</a></li>
             <li><a href="Program.php">Program</a></li>
-            <li><a href="InfoPage.php">Subscribe</a></li>
+            <li><a href="subscribe_form.php">Subscribe</a></li>
         </ul>
     </div>
     <br>
