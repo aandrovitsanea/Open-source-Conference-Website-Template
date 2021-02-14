@@ -69,10 +69,10 @@ img.infoImage:hover { /*What happens when the enlarging image is hovered*/
     float: right;
     display: block;
     margin: auto;
-    width: 80%;
-    height: 80%;
-    padding-right: 10%;
-    padding-top: 10%;
+    width: 30%;
+    height: 30%;
+    /*padding-right: 10%;
+    padding-top: 10%;*/
 }
 
 /*------------------------------LOCATION PAGE----------------------------------*/
