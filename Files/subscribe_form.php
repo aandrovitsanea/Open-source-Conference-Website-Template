@@ -29,8 +29,8 @@
     <br>
 <!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
     
-<form>
-
+<form id="subscription_form">
+<p>
 <table id="third" >
             <tr><td colspan="4" id="third" ><b>Registration form</b></td></tr>
         </table>
@@ -241,7 +241,8 @@
             <tr><td></td><td></td><td></td><td></td><td id="third" ><input class="button" type="submit" value="Submit"></td><td id="third"></td><td id="third"><input class="button" type="reset" value="Cancel"></td>
         </table>
 
- </form>     
+ </form>  
+</p> 
 </body>
 </html>
     
