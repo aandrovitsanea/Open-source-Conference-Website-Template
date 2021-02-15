@@ -47,6 +47,13 @@ body {
     padding: 3px;
 }
 
+#map_main { /*The main div where all information is written*/
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+    float: right;
+}
+
 #menu {
     display: flex;
     justify-content: center;
@@ -59,20 +66,44 @@ body {
 }
 /*--------------------------------HOME PAGE------------------------------------*/
 
-img.infoImage:hover { /*What happens when the enlarging image is hovered*/
-  width: 20%;
-  height: 20%;
-  padding-right: 2%;
+.zoom {
+  padding: 50px;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
 }
 
-.infoImage { /*The elnlarging image's css*/
-    float: right;
+.zoom:hover {
+  -ms-transform: scale(4); /* IE 9 */
+  -webkit-transform: scale(4); /* Safari 3-8 */
+  transform: scale(4); 
+}
+
+/*img.infoImage:hover { /*What happens when the enlarging image is hovered*/
+  /*width: 20%;/*
+ /*height: 20%;/*
+  /*padding-right: 2%;/*
+}/*
+
+/*.infoImage { /*The elnlarging image's css*/
+    /*float: right;
     display: block;
     margin: auto;
     width: 30%;
     height: 30%;
     /*padding-right: 10%;
     padding-top: 10%;*/
+/*}/*
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
 }
 
 /*------------------------------LOCATION PAGE----------------------------------*/

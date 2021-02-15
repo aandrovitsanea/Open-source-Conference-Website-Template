@@ -29,7 +29,7 @@
     <br>
 <!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
     <?php 
-        echo "<img id='map' class='infoImage' src='map_athens.png'>"; 
+        echo "<img id='map_main' class='zoom' height='300' width='800' src='map_athens.png'>"; 
     ?>
     <div id="main">
         <h2>Welcome to the home page</h2>
