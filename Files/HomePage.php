@@ -48,6 +48,10 @@
         <p>We wish you all an interesting, fruitful and harmonious conference in Athens.
         </p>
     </div>
+        <footer>
+    <p>Anna A., Leo X.</p>
+    <p><time pubdate datetime="2021-02-28"></time></p>
+    </footer>
 </body>
 </html>
     
