@@ -45,7 +45,7 @@
 
         <p>The goal of the conference is to bring scientists from various disciplines together for a fruitful exchange of ideas.</p>
 
-        We wish you all an interesting, fruitful and harmonious conference in Athens.
+        <p>We wish you all an interesting, fruitful and harmonious conference in Athens.
         </p>
     </div>
 </body>
