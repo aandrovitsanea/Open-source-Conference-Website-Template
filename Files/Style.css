@@ -15,6 +15,21 @@ h2 {
     font-family: Futura, sans-serif;
 }
 
+h3 {
+    color:  #800080;
+    font-size: 23px;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Futura, sans-serif;
+}
+
+h4 {
+    color:  black;
+    font-size: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Futura, sans-serif;
+}
 
 
 p {
@@ -62,6 +77,51 @@ form {
     background-color: plum;
 }
 
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 8px;;
+  background-color: purple;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: inherit;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: purple;
+  min-width: 80px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 8px 8px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: inherit;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 #main { /*The main div where all information is written*/
     margin: auto;
@@ -88,6 +148,8 @@ form {
     margin: auto;
     width: 30%;
 }
+
+
 /*--------------------------------HOME PAGE------------------------------------*/
 
 table.set_center {

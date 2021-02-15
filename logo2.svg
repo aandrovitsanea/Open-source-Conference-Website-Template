@@ -17,7 +17,7 @@
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="logo2.svg"
-   inkscape:export-filename="/home/mezcla/Documents/pa.pei/courses/1st_sem/6.Τεχνολογίες Διαδικτύου/lab/final_hw/logo2.png"
+   inkscape:export-filename="/home/mezcla/Documents/pa.pei/courses/1st_sem/6.Τεχνολογίες Διαδικτύου/lab/final_hw/Files/logo2.png"
    inkscape:export-xdpi="150"
    inkscape:export-ydpi="150">
   <defs
@@ -88,8 +88,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="427.73034"
-     inkscape:cy="335.93417"
+     inkscape:cx="142.01605"
+     inkscape:cy="333.07703"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -285,7 +285,7 @@
        xml:space="preserve"
        id="flowRoot21-3-31"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:80px;line-height:1.25;font-family:KerkisSans;-inkscape-font-specification:'KerkisSans, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,2.6646624,-290.73895)"><flowRegion
+       transform="matrix(0.26458333,0,0,0.26458333,2.6646624,-282.80145)"><flowRegion
          id="flowRegion23-6-9"
          style="font-size:80px"><rect
            id="rect25-7-4"
@@ -295,11 +295,11 @@
            y="912.51971"
            style="font-size:80px" /></flowRegion><flowPara
          id="flowPara27-5-7"
-         style="font-size:53.33333588px">10-10-2021</flowPara></flowRoot>    <flowRoot
+         style="font-size:53.33333588px"> 8 - 10 - 2021</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot21-3-31-8"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:80px;line-height:1.25;font-family:KerkisSans;-inkscape-font-specification:'KerkisSans, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,2.3720541,-274.49201)"><flowRegion
+       transform="matrix(0.26458333,0,0,0.26458333,2.3720541,-263.90869)"><flowRegion
          id="flowRegion23-6-9-4"
          style="font-size:80px"><rect
            id="rect25-7-4-5"
@@ -309,11 +309,11 @@
            y="912.51971"
            style="font-size:80px" /></flowRegion><flowPara
          id="flowPara27-5-7-0"
-         style="font-size:53.33333588px">15-10-2021</flowPara></flowRoot>    <flowRoot
+         style="font-size:53.33333588px">10 -10 - 2021</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot21-3-31-8-3"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:80px;line-height:1.25;font-family:KerkisSans;-inkscape-font-specification:'KerkisSans, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,23.369104,-283.46474)"><flowRegion
+       transform="matrix(0.26458333,0,0,0.26458333,40.000056,-292.15817)"><flowRegion
          id="flowRegion23-6-9-4-6"
          style="font-size:80px"><rect
            id="rect25-7-4-5-1"
@@ -323,5 +323,19 @@
            y="912.51971"
            style="font-size:80px" /></flowRegion><flowPara
          id="flowPara27-5-7-0-0"
-         style="font-size:53.33333588px">-</flowPara></flowRoot>  </g>
+         style="font-size:45.3333339px">from</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot21-3-31-8-3-3"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:80px;line-height:1.25;font-family:KerkisSans;-inkscape-font-specification:'KerkisSans, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,41.223565,-273.99481)"><flowRegion
+         id="flowRegion23-6-9-4-6-6"
+         style="font-size:80px"><rect
+           id="rect25-7-4-5-1-7"
+           width="973.03137"
+           height="152.9166"
+           x="294.28571"
+           y="912.51971"
+           style="font-size:80px" /></flowRegion><flowPara
+         id="flowPara27-5-7-0-0-5"
+         style="font-size:40.0000005px">to</flowPara></flowRoot>  </g>
 </svg>
