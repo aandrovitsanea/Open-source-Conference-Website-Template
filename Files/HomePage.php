@@ -11,9 +11,12 @@
 <body>
 <!------------------------------------------ LOGO -------------------------------------------------------->
     <?php 
-        echo "<a href='HomePage.php'>
+        /*echo "<a href='HomePage.php'>
                 <img id='logo' src='logo_bw.png'>
-              </a>";  
+              </a>";*/  
+        echo "<a href='HomePage.php'>
+                <img id='logo' src='logo2.png'>
+              </a>"; 
     ?><br>
 <!---------------------------------------- MENU BAR ------------------------------------------------------>
     <div id="menu">
