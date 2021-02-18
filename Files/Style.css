@@ -52,6 +52,17 @@ form {
     font-family: Futura, sans-serif;
 }
 
+table {
+  border-spacing: 20px;
+  width:100%;
+  align:"center";
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+
+
 
 #NavBar {
     list-style-type: none;
@@ -149,10 +160,18 @@ form {
     width: 30%;
 }
 
+#jury_pic {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
 
+#tab_jury{
+    width:1000px
+}
 /*--------------------------------HOME PAGE------------------------------------*/
 
-table.set_center {
+table.center {
   margin-left: auto; 
   margin-right: auto;
 }
@@ -170,34 +189,6 @@ table.set_center {
   -webkit-transform: scale(4); /* Safari 3-8 */
   transform: scale(4); 
 }
-
-/*img.infoImage:hover { /*What happens when the enlarging image is hovered*/
-  /*width: 20%;/*
- /*height: 20%;/*
-  /*padding-right: 2%;/*
-}/*
-
-/*.infoImage { /*The elnlarging image's css*/
-    /*float: right;
-    display: block;
-    margin: auto;
-    width: 30%;
-    height: 30%;
-    /*padding-right: 10%;
-    padding-top: 10%;*/
-/*}/*
-
-.thumbnail:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
-}
-
-/*------------------------------LOCATION PAGE----------------------------------*/
 
 #map { /*Google maps embed map*/
     display: flex;
