@@ -28,7 +28,7 @@
     </div>
     <br>
     <div id="main">
-        <h2>Welcome to the Information page</h2>
+        <h2>Welcome to our Information page</h2>
         
         <p>The purpose of the 1st International Conference on Web Technologies is to bring together researchers, engineers and practitioners interested in the technological advances and business applications of web-based information systems.</p>
         

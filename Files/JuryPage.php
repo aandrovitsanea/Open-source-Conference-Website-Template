@@ -29,7 +29,7 @@
     <br>
     <div id="main">
         <h2>Get to know our jury</h2>        
-            <table class = "center">
+<table class = "center">
   <tr>
     <th>Name</th>
     <th>Photo</th>
@@ -41,7 +41,7 @@
     <td>David Garcia</td>
     <td><?php 
         echo "<a href='HomePage.php'>
-                <img id='jury_pic' src='David.png'>
+                <img id='jury_pic' class = 'zoom_jury' src='David.png'>
               </a>";  
     ?></td>
     <td>Academic Assistant Professor University of California, Berkeley</td>
@@ -53,7 +53,7 @@
     <td>Donna Miller</td>
     <td><?php 
         echo "<a href='HomePage.php'>
-                <img id='jury_pic' src='donna.png'>
+                <img id='jury_pic' class = 'zoom_jury' src='donna.png'>
               </a>";  
     ?></td>
     <td>Associate Chair of the Office of Investor Diversity of the University of Pireaus, Greece</td>
@@ -63,7 +63,7 @@
     <td>Michalis Pappalis</td>
     <td><?php 
         echo "<a href='HomePage.php'>
-                <img id='jury_pic' src='Michalis.png'>
+                <img id='jury_pic' class = 'zoom_jury' src='Michalis.png'>
               </a>";  
     ?></td>
     <td>Associate Assistant Chancellor of the Committee on Learning Diversity</td>
@@ -73,13 +73,13 @@
     <td>Kira Johnson</td>
     <td><?php 
         echo "<a href='HomePage.php'>
-                <img id='jury_pic' src='Kira.png'>
+                <img id='jury_pic' class = 'zoom_jury' src='Kira.png'>
               </a>";  
     ?></td>
     <td>Associate Vice Chancellor of the Office of Investor Partnerships</td>
     <td><ul><li>Transgressing Gregarious Xenophobia: Web Technologies and/in the Marginalized</li><li>Artifacts and Capitalism: Dissecting the Subaltern and/in Web Technologies</li><li>Defamiliarizing Communicative Fuzziness: Asyndeton and Analogy in Web Technologies</li><li>Describing the/a/an Courageous Oppression in Web Technologies: Motif and Subjectivity</li></ul></td>
   </tr>
-            </table>         
+</table>         
         </div>
     </body>
 </html>

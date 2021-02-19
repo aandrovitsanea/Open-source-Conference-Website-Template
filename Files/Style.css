@@ -184,12 +184,19 @@ table.center {
   margin: 0 auto;
 }
 
+
 .zoom:hover {
   -ms-transform: scale(4); /* IE 9 */
   -webkit-transform: scale(4); /* Safari 3-8 */
   transform: scale(4); 
 }
 
+
+.zoom_jury:hover {
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
+  transform: scale(2); 
+}
 #map { /*Google maps embed map*/
     display: flex;
     justify-content: center;
