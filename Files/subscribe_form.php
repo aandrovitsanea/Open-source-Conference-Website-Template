@@ -29,24 +29,38 @@
     <br>
 <!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
     
-<form id="subscription_form">
-<p>
-<table id="third" >
-            <tr><td colspan="4" id="third" ><b>Registration form</b></td></tr>
-        </table>
-<table id="main_table">
-    <tr><td><label for="firstname">First name</label></td><td id="sec"  colspan="3"><input pattern="[A-Za-z]" placeholder="Please type in your first name" type="text" name="firstname" size="30"></tr>
-    <tr><td><label for="lastname">Last name</label></td><td id="sec"  colspan="3"><input placeholder="Please type in your last name" type="text" name="lastname" size="30"></tr>
-   
-   <tr><td style="word-wrap: break-word; width=50%">Date of birth</td><td>
-   <input type="date" id="birthday" name="birthday">
-    
-    <tr><td><label for="gender">Gender</label></td><td colspan="1"><label for="gender">Female</label> 
-<input type="radio" name="gender" value="female"></td><td  colspan="1"><label for="gender">Non-binary</label> 
-<input type="radio" name="gender" value="non_bin"></td><td  colspan="1"><label for="gender">Male</label> 
-<input type="radio" name="gender" value="male"></td></tr>
+<form id="subscription_form" method="post" action ="data_to_db.php">
+
+<table id="sub_table" >
+    <tr>
+        <th colspan="4" id="third" ><b>Registration form</b></th>
+    </tr>
+    <tr>
+        <td><label for="fname">First name</label></td>
+        <td colspan="3"><input placeholder = "Please type in your first name" type="text" id= "fname" name="fname" size="30"></td>
+    </tr>
+    <tr>
+        <td><label for="lname">Last name</label></td>
+        <td colspan="3"><input placeholder="Please type in your last name" type="text" id="lname" name="lname" size="30"></td>
+    </tr>
+    <tr>
+        <td style="word-wrap: break-word; width=50%"><label for="dob">Date of birth</label></td>
+        <td colspan="2" style='width=100%'><input type="date" id="dob" name="dob"></td>
+    <tr>
+        <td><label>Gender</label></td>
+        <td><label for="gender">Female</label>
+            <input type="radio" id="female" name="gender" value="female"></td>
+        <td><label for="gender">Non-binary</label> 
+            <input type="radio" id="non_bin" name="gender" value="non_bin"></td>
+        <td><label for="gender">Male</label> 
+            <input type="radio" id="male" name="gender" value="male"></td>
+    </tr>
         
-<tr><td><label for="country">Land</label></td><td colspan="2">Land:<select id="countries" name="countries">
+    <tr>
+        <td><label for="country">Country</label></td>
+        <td colspan="2">
+                    <!--<input type="dropdown" id="country" name="country" value="country">-->
+                    <select id="country" name="country">
                     <option value="Afganistan">Afghanistan</option>
                     <option value="Albania">Albania</option>
                     <option value="Algeria">Algeria</option>
@@ -293,24 +307,36 @@
                     <option value="Zaire">Zaire</option>
                     <option value="Zambia">Zambia</option>
                     <option value="Zimbabwe">Zimbabwe</option>
-                </select></td><td></td></tr>    
+                </select></td>
+        </tr>    
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td colspan ="2"><input placeholder="E-mail" type="email" name="email" id="email" pattern=".+@.+{.}.+"></td>
+        </tr>
+        <tr>
+            <td><label for="telephone">Telephone</label></td>
+            <td colspan ="2"><input placeholder="Telephone" type="text" name="telephone" id="telephone"></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td colspan ="2"><input type="password" name="password" id="password" maxlength ="8" required></td>
+        </tr>
+        <tr>
+            <td><label for="conf_password">Confirm Password</label></td>
+            <td colspan ="2"><input type="password" name="conf_password" id="conf_password" maxlength ="8" required></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3"><label for="consent"></label><input class="square-radio" type="checkbox" name="disclaimer" value="yes"><label for="consent">I agree with the terms of the conference</label></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input class="button" type="submit" value="Submit"></td>
+            <td><input class="button" type="reset" value="Cancel"></td>
+        </tr>
+    </table>
+</form>  
 
-
-<tr><td><label for="email">Email</label></td><td colspan ="2"><input placeholder="E-mail" type="email" name="email" id="email" pattern=".+@.+{.}.+"></td><td></td></tr>
-<tr><td><label for="tel">Telephone</label></td><td colspan ="2"><input placeholder="Telephone" type="number" name="tel" id="tel"></td><td></td></tr>
-<tr><td><label for="password">Password</label></td><td colspan ="2"><input type="password" name="password" maxlength ="8" required></td><td></td></tr>
-<tr><td><label for="conf_password">Confirm Password</label></td><td colspan ="2"><input type="password" name="conf_password" maxlength ="8" required></td><td></td></tr>
-
-<tr><td></td><td colspan="3"><input class="square-radio" type="checkBox" name="disclaimer" value="ds"><label for="payment">I agree with the terms of the conference</label></td></tr>    
-</table>
-
-
-<table id="third" >
-            <tr><td></td><td></td><td></td><td></td><td id="third" ><input class="button" type="submit" value="Submit"></td><td id="third"></td><td id="third"><input class="button" type="reset" value="Cancel"></td>
-        </table>
-
- </form>  
-</p> 
 </body>
 </html>
     
