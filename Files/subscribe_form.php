@@ -327,7 +327,7 @@
         </tr>
         <tr>
             <td></td>
-            <td colspan="3"><label for="consent"></label><input class="square-radio" type="checkbox" name="disclaimer" value="yes"><label for="consent">I agree with the terms of the conference</label></td>
+            <td colspan="3"><label for="consent"></label><input class="square-radio" type="checkbox" name="disclaimer" value="yes"><label for="consent">I agree with the <a href='terms_of_use.php'>terms</a> of use for this site.</label></td>
         </tr>
         <tr>
             <td></td>

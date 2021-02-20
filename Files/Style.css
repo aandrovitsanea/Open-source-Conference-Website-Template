@@ -60,6 +60,11 @@ table {
   margin-right:auto;
 }
 
+ul { 
+	display: inline-block; 
+	text-align: left; 
+	}
+
 #sub_table {
   border-spacing: 20px;
   
