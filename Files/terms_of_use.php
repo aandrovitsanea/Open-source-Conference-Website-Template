@@ -37,8 +37,6 @@
     <div id="main">
         <h2>Website Terms of Use</h2>
 
-            <p>Version 1.0</p>
-
             <p>The www.1sticwt.org website is a copyrighted work belonging to 1st international conference on Web Technologies. Certain features of the Site may be subject to additional guidelines, terms, or rules, which will be posted on the Site in connection with such features.</p>
 
             <p>All such additional terms, guidelines, and rules are incorporated by reference into these Terms.</p>
@@ -93,7 +91,7 @@
 
             <p>Company respects the intellectual property of others and asks that users of our Site do the same.  In connection with our Site, we have adopted and implemented a policy respecting copyright law that provides for the removal of any infringing materials and for the termination of users of our online Site who are repeated infringers of intellectual property rights, including copyrights.  If you believe that one of our users is, through the use of our Site, unlawfully infringing the copyright(s) in a work, and wish to have the allegedly infringing material removed, the following information in the form of a written notification (pursuant to 17 U.S.C. § 512(c)) must be provided to our designated Copyright Agent:</p>
 
-            <ul>
+            <ul style=>
                 <li>your physical or electronic signature;</li>
                 <li>identification of the copyrighted work(s) that you claim to have been infringed;</li>
                 <li>identification of the material on our services that you claim is infringing and that you request us to remove;</li>
