@@ -37,7 +37,7 @@
     <div id="main">
         <h2>Welcome to our home page</h2>
         
-        <p>It is our great pleasure that it has been possible for the University of Pireaus to organise the 1st international conference on Web Technologies in Athens, which is a conference on the topic of all application related to the web.</p>
+        <p>It is our great pleasure that it has been possible for the University of Pireaus to organize the 1st international conference on Web Technologies in Athens, which is a conference on the topic of all application related to the web.</p>
         
         <p>It is more or less impossible to plan a conference in a foreign country without a local partner. For this reason, it was a special pleasure that the Institute of Information Technologies helped us with words and deeds. We are grateful to Ms. Prof. Dr.  Thekla Nefeli and Mr. Dr.  Neofytos Marinos  for this support.</p>
 
@@ -47,11 +47,19 @@
 
         <p>We wish you all an interesting, fruitful and harmonious conference in Athens.
         </p>
-    </div>
+        
+         <p>Your organizing committee, 
+            <br><br>
+            Anna A., Leonidas X.
+            <br>
+        </p>
+        
         <footer>
-    <p>Anna A., Leo X.</p>
-    <p><time pubdate datetime="2021-02-28"></time></p>
-    </footer>
+            <p style = "font-size: 12px">Disclaimer: This site has been created in the framework of the final assignment of the undergraduate course "Web Technologies" of the Department of Informatics. All names, titles of papers/presentation and photos are fictional, created with the tools <a href="https://www.name-generator.org.uk/">Name Generator</a>, <a href="https://www.rewordmyessay.com/essay-titles-generator/">Reword My Essay</a> and <a href="https://thispersondoesnotexist.com/">This Person Does Not Exist</a>.</p>
+            <p><time pubdate datetime="2021-02-28"></time></p>
+        </footer>
+    </div>
+        
 </body>
 </html>
     
