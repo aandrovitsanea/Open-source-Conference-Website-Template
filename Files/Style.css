@@ -219,3 +219,21 @@ table.center {
     width: 50%;
     font-family: Futura, sans-serif;
 }
+
+.errorText {
+  color: red
+}
+
+table#sub_table {
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+td.formTitle {
+  text-align: right;
+}
