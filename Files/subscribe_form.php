@@ -37,7 +37,7 @@
     </tr>
     <tr>
         <td><label for="fname">First name</label></td>
-        <td colspan="3"><input placeholder = "Please type in your first name" type="text" id= "fname" name="fname" size="30"></td>
+        <td colspan="3"><input pattern= "^[α-ωΑ-ΩA-Za-zάέίύήόώΆΈΊΎΌΏΉ]+$" placeholder = "Please type in your first name" type="text" id= "fname" name="fname" size="30"></td>
     </tr>
     <tr>
         <td><label for="lname">Last name</label></td>
@@ -49,11 +49,11 @@
     <tr>
         <td><label>Gender</label></td>
         <td><label for="gender">Female</label>
-            <input type="radio" id="female" name="gender" value="Mrs"></td>
+            <input type="radio" id="Mrs" name="gender" value="Mrs"></td>
         <td><label for="gender">Non-binary</label> 
             <input type="radio" id="non_bin" name="gender" value="non_bin"></td>
         <td><label for="gender">Male</label> 
-            <input type="radio" id="male" name="gender" value="Mr"></td>
+            <input type="radio" id="Mr" name="gender" value="Mr"></td>
     </tr>
         
     <tr>
@@ -315,23 +315,23 @@
         </tr>
         <tr>
             <td><label for="telephone">Telephone</label></td>
-            <td colspan ="2"><input placeholder="Telephone" type="text" name="telephone" id="telephone" maxlength ="10"></td>
+            <td colspan ="2"><input pattern= "^[0-9]{10}$" placeholder="Telephone" type="text" name="telephone" id="telephone" maxlength ="10"></td>
         </tr>
         <tr>
         <td><label for="username">Username</label></td>
-        <td colspan="2"><input placeholder="Username (6 - 8 characters)" type="text" id="username" name="username" minlength = "6" maxlength ="8" required></td>
+        <td colspan="2"><input pattern= "^[a-z]{6-8}$" placeholder="Username (6 - 8 characters)" type="text" id="username" name="username" minlength = "6" maxlength ="8" required></td>
     </tr>
         <tr>
             <td><label for="password">Password</label></td>
-            <td colspan ="2"><input placeholder="Password (6 - 8 characters)" type="password" name="password" id="password" minlength = "6" maxlength ="8" required></td>
+            <td colspan ="2"><input pattern= "^[a-z]{6-8}$" placeholder="Password (6 - 8 characters)" type="password" name="password" id="password" minlength = "6" maxlength ="8" required></td>
         </tr>
         <tr>
             <td><label for="conf_password">Confirm Password</label></td>
-            <td colspan ="2"><input type="password" name="conf_password" id="conf_password" minlength = "6" maxlength ="8" required></td>
+            <td colspan ="2"><input pattern= "^[a-z]{6-8}$" type="password" name="conf_password" id="conf_password" minlength = "6" maxlength ="8" required></td>
         </tr>
         <tr>
             <td></td>
-            <td colspan="3"><label for="consent"></label><input class="square-radio" type="checkbox" name="disclaimer" value="yes"><label for="consent">I agree with the <a href='terms_of_use.php'>terms</a> of use for this site.</label></td>
+            <td colspan="3"><input class="square-radio" type="checkbox" name="consent" value="yes" required><label for="consent">I agree with the <a href='terms_of_use.php'>terms</a> of use for this site.</label></td>
         </tr>
         <tr>
             <td></td>

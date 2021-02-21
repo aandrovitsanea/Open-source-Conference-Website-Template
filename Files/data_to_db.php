@@ -18,37 +18,38 @@ if (!$conn) {
 //ορισμός charset της σύνδεσης ώστε να παρουσιάζονται τα ελληνικά σωστά
 mysqli_set_charset($conn, "utf8");
 
-// // drop table in case of re-running the script
-// if (!mysqli_query($conn, "DROP TABLE `conference_db`")){
-//             echo "Error: " . mysqli_error($conn);
-// }
+// drop table in case of re-running the script
+if (!mysqli_query($conn, "DROP TABLE `conference_db`")){
+            echo "Error: " . mysqli_error($conn);
+}
 
-// echo "<br><br>";
-// echo "Create new table";
-// echo "<br><br>";
-// // // create table in case of re-running the script
-// // // in order to avoid inserting the same data many times
-// // 
-// if (!mysqli_query($conn, "CREATE TABLE `conference_db` (
-//                     `fname` varchar(100) NOT NULL,
-//                     `lname` varchar(100) NOT NULL,
-//                     `dob` DATE NOT NULL,
-//                     `gender` varchar(20) NOT NULL,
-//                     `country` varchar(100) NOT NULL,
-//                     `email` varchar(100) NOT NULL,
-//                     `telephone` varchar(10) NOT NULL,
-//                     `username` varchar(8) NOT NULL,
-//                     `password` varchar(8) NOT NULL
-//                     ) ENGINE=InnoDB DEFAULT CHARSET=utf8")){
-//             echo "Create Error: " . mysqli_error($conn);
-// }
+echo "<br><br>";
+echo "Create new table";
+echo "<br><br>";
+// // create table in case of re-running the script
+// // in order to avoid inserting the same data many times
+// 
+if (!mysqli_query($conn, "CREATE TABLE `conference_db` (
+                    `fname` varchar(100) NOT NULL,
+                    `lname` varchar(100) NOT NULL,
+                    `dob` DATE NOT NULL,
+                    `gender` varchar(20) NOT NULL,
+                    `country` varchar(100) NOT NULL,
+                    `email` varchar(100) NOT NULL,
+                    `telephone` varchar(10) NOT NULL,
+                    `username` varchar(8) NOT NULL,
+                    `password` varchar(8) NOT NULL,
+                    `consent` varchar(3)
+                    ) ENGINE=InnoDB DEFAULT CHARSET=utf8")){
+            echo "Create Error: " . mysqli_error($conn);
+}
 
 echo "Query";
 echo "<br><br>";
 //Δημιουργία ερωτήματος
 
 //$sql = "SELECT * FROM `conference_db`;";
-$sql = "INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `username`, `password`) VALUES ('".$_POST['fname']."', '".$_POST['lname']."', '".$_POST['dob']."', '".$_POST['gender']."', '".$_POST['country']."', '".$_POST['email']."', '".$_POST['telephone']."', '".$_POST['username']."','".$_POST['password']."');";
+$sql = "INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `username`, `password`,`consent`) VALUES ('".$_POST['fname']."', '".$_POST['lname']."', '".$_POST['dob']."', '".$_POST['gender']."', '".$_POST['country']."', '".$_POST['email']."', '".$_POST['telephone']."', '".$_POST['username']."','".$_POST['password']."','".$_POST['consent']."');";
 
 //$sql = "INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `password`) VALUES ('".$_POST['fname']."', '".$_POST['lname']."', '".$_POST['dob']."', '".$_POST['gender']."', 'Germany', '".$_POST['email']."', '".$_POST['telephone']."', '".$_POST['password']."');";
 
@@ -78,8 +79,8 @@ echo "<tr><th>First name</th><th>Last name</th><th>Date of Birth</th><th>Email</
     echo "<tr><td>".$row['fname']."</td>".
          "<td>".$row['lname']."</td>".
          "<td>".$row['dob']."</td>".
-         "<td>".$row['email']."</td>.".
-         "<td>".$row['username']."</td>.</tr>";
+         "<td>".$row['email']."</td>".
+         "<td>".$row['username']."</td></tr>";
     }
 echo "</table>" ;
 
