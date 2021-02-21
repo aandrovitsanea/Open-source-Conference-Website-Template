@@ -17,7 +17,7 @@
     
 <form id="subscription_form" method="post" action ="data_to_db.php">
 
-<table id="sub_table" >
+<table id="sub_table">
     <tr>
         <th colspan="4" id="third" style="text-align: center;"><b>Registration form</b></th>
     </tr>
