@@ -33,7 +33,7 @@ h4 {
 
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     line-height: 1.6;
     font-family: Futura, sans-serif;     
@@ -190,16 +190,16 @@ table.center {
 .zoom {
   padding: 50px;
   transition: transform .2s;
-  width: 200px;
+  width: 2000px;
   height: 200px;
   margin: 0 auto;
 }
 
 
 .zoom:hover {
-  -ms-transform: scale(4); /* IE 9 */
-  -webkit-transform: scale(4); /* Safari 3-8 */
-  transform: scale(4); 
+  -ms-transform: scale(5); /* IE 9 */
+  -webkit-transform: scale(5); /* Safari 3-8 */
+  transform: scale(5); 
 }
 
 

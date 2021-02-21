@@ -30,132 +30,700 @@
         </ul>
     </div>
     <br>
-<!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
-    <?php 
-        echo "<img id='map_main' class='zoom' height='300' width='800' src='map_athens.png'>"; 
-    ?>
     <div id="main">
         <h2>Website Terms of Use</h2>
 
-            <p>The www.1sticwt.org website is a copyrighted work belonging to 1st international conference on Web Technologies. Certain features of the Site may be subject to additional guidelines, terms, or rules, which will be posted on the Site in connection with such features.</p>
+            <p>The 1sticwt.tk website is a GNU GENERAL PUBLIC LICENSE copyrighted work belonging to 1st international conference on Web Technologies. Certain features of the Site may be subject to additional guidelines, terms, or rules, which will be posted on the Site in connection with such features.</p>
 
-            <p>All such additional terms, guidelines, and rules are incorporated by reference into these Terms.</p>
+            <h3 style="text-align: center;">GNU GENERAL PUBLIC LICENSE</h3>
+            
+            <p style="text-align: center;">Version 3, 29 June 2007</p>
 
-            <p>These Terms of Use described the legally binding terms and conditions that oversee your use of the Site. BY LOGGING INTO THE SITE, YOU ARE BEING COMPLIANT THAT THESE TERMS and you represent that you have the authority and capacity to enter into these Terms. YOU SHOULD BE AT LEAST 18 YEARS OF AGE TO ACCESS THE SITE. IF YOU DISAGREE WITH ALL OF THE PROVISION OF THESE TERMS, DO NOT LOG INTO AND/OR USE THE SITE.<p>
+            <p>Copyright &copy; 2007 Free Software Foundation, Inc.
+            &lt;<a href="https://fsf.org/">https://fsf.org/</a>&gt;</p><p>
+            Everyone is permitted to copy and distribute verbatim copies
+            of this license document, but changing it is not allowed.</p>
 
-            <p>These terms require the use of arbitration Section 10.2 on an individual basis to resolve disputes and also limit the remedies available to you in the event of a dispute. These Terms of Use were created with the help of the <a href="https://www.termsofusegenerator.net">Terms Of Use Generator</a> and the <a href="https://www.generateprivacypolicy.com">Privacy Policy Generator</a>.</p>
+            <h4 id="preamble">Preamble</h4>
 
+            <p>The GNU General Public License is a free, copyleft license for
+            software and other kinds of works.</p>
 
-            <h2>Access to the Site</h2>
+            <p>The licenses for most software and other practical works are designed
+            to take away your freedom to share and change the works.  By contrast,
+            the GNU General Public License is intended to guarantee your freedom to
+            share and change all versions of a program--to make sure it remains free
+            software for all its users.  We, the Free Software Foundation, use the
+            GNU General Public License for most of our software; it applies also to
+            any other work released this way by its authors.  You can apply it to
+            your programs, too.</p>
 
-            <p><strong>Subject to these Terms.</strong> Company grants you a non-transferable, non-exclusive, revocable, limited license to access the Site solely for your own personal, noncommercial use.</p>
+            <p>When we speak of free software, we are referring to freedom, not
+            price.  Our General Public Licenses are designed to make sure that you
+            have the freedom to distribute copies of free software (and charge for
+            them if you wish), that you receive source code or can get it if you
+            want it, that you can change the software or use pieces of it in new
+            free programs, and that you know you can do these things.</p>
 
-            <p><strong>Certain Restrictions.</strong> The rights approved to you in these Terms are subject to the following restrictions: (a) you shall not sell, rent, lease, transfer, assign, distribute, host, or otherwise commercially exploit the Site; (b) you shall not change, make derivative works of, disassemble, reverse compile or reverse engineer any part of the Site; (c) you shall not access the Site in order to build a similar or competitive website; and (d) except as expressly stated herein, no part of the Site may be copied, reproduced, distributed, republished, downloaded, displayed, posted or transmitted in any form or by any means unless otherwise indicated, any future release, update, or other addition to functionality of the Site shall be subject to these Terms.  All copyright and other proprietary notices on the Site must be retained on all copies thereof.</p>
+            <p>To protect your rights, we need to prevent others from denying you
+            these rights or asking you to surrender the rights.  Therefore, you have
+            certain responsibilities if you distribute copies of the software, or if
+            you modify it: responsibilities to respect the freedom of others.</p>
 
-            <p>Company reserves the right to change, suspend, or cease the Site with or without notice to you.  You approved that Company will not be held liable to you or any third-party for any change, interruption, or termination of the Site or any part.</p>
+            <p>For example, if you distribute copies of such a program, whether
+            gratis or for a fee, you must pass on to the recipients the same
+            freedoms that you received.  You must make sure that they, too, receive
+            or can get the source code.  And you must show them these terms so they
+            know their rights.</p>
 
-            <p><strong>No Support or Maintenance.</strong> You agree that Company will have no obligation to provide you with any support in connection with the Site.</p>
+            <p>Developers that use the GNU GPL protect your rights with two steps:
+            (1) assert copyright on the software, and (2) offer you this License
+            giving you legal permission to copy, distribute and/or modify it.</p>
 
-            <p>Excluding any User Content that you may provide, you are aware that all the intellectual property rights, including copyrights, patents, trademarks, and trade secrets, in the Site and its content are owned by Company or Company’s suppliers. Note that these Terms and access to the Site do not give you any rights, title or interest in or to any intellectual property rights, except for the limited access rights expressed in Section 2.1. Company and its suppliers reserve all rights not granted in these Terms.</p>
+            <p>For the developers' and authors' protection, the GPL clearly explains
+            that there is no warranty for this free software.  For both users' and
+            authors' sake, the GPL requires that modified versions be marked as
+            changed, so that their problems will not be attributed erroneously to
+            authors of previous versions.</p>
 
+            <p>Some devices are designed to deny users access to install or run
+            modified versions of the software inside them, although the manufacturer
+            can do so.  This is fundamentally incompatible with the aim of
+            protecting users' freedom to change the software.  The systematic
+            pattern of such abuse occurs in the area of products for individuals to
+            use, which is precisely where it is most unacceptable.  Therefore, we
+            have designed this version of the GPL to prohibit the practice for those
+            products.  If such problems arise substantially in other domains, we
+            stand ready to extend this provision to those domains in future versions
+            of the GPL, as needed to protect the freedom of users.</p>
 
-            <h2>Third-Party Links & Ads; Other Users</h2>
+            <p>Finally, every program is threatened constantly by software patents.
+            States should not allow patents to restrict development and use of
+            software on general-purpose computers, but in those that do, we wish to
+            avoid the special danger that patents applied to a free program could
+            make it effectively proprietary.  To prevent this, the GPL assures that
+            patents cannot be used to render the program non-free.</p>
 
-            <p><strong>Third-Party Links & Ads.</strong> The Site may contain links to third-party websites and services, and/or display advertisements for third-parties.  Such Third-Party Links & Ads are not under the control of Company, and Company is not responsible for any Third-Party Links & Ads.  Company provides access to these Third-Party Links & Ads only as a convenience to you, and does not review, approve, monitor, endorse, warrant, or make any representations with respect to Third-Party Links & Ads.  You use all Third-Party Links & Ads at your own risk, and should apply a suitable level of caution and discretion in doing so. When you click on any of the Third-Party Links & Ads, the applicable third party’s terms and policies apply, including the third party’s privacy and data gathering practices.</p>
+            <p>The precise terms and conditions for copying, distribution and
+            modification follow.</p>
 
-            <p><strong>Other Users.</strong> Each Site user is solely responsible for any and all of its own User Content.  Because we do not control User Content, you acknowledge and agree that we are not responsible for any User Content, whether provided by you or by others.  You agree that Company will not be responsible for any loss or damage incurred as the result of any such interactions.  If there is a dispute between you and any Site user, we are under no obligation to become involved.</p>
+            <h4 id="terms">TERMS AND CONDITIONS</h4>
 
-            <p>You hereby release and forever discharge the Company and our officers, employees, agents, successors, and assigns from, and hereby waive and relinquish, each and every past, present and future dispute, claim, controversy, demand, right, obligation, liability, action and cause of action of every kind and nature, that has arisen or arises directly or indirectly out of, or that relates directly or indirectly to, the Site. If you are a California resident, you hereby waive California civil code section 1542 in connection with the foregoing, which states: "a general release does not extend to claims which the creditor does not know or suspect to exist in his or her favor at the time of executing the release, which if known by him or her must have materially affected his or her settlement with the debtor."</p>
+            <h5 id="section0">0. Definitions.</h5>
 
-            <p><strong>Cookies and Web Beacons.</strong> Like any other website, www.1sticwt.org uses ‘cookies’. These cookies are used to store information including visitors’ preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users’ experience by customizing our web page content based on visitors’ browser type and/or other information.</p>
+            <p>&ldquo;This License&rdquo; refers to version 3 of the GNU General Public License.</p>
 
+            <p>&ldquo;Copyright&rdquo; also means copyright-like laws that apply to other kinds of
+            works, such as semiconductor masks.</p>
+            
+            <p>&ldquo;The Program&rdquo; refers to any copyrightable work licensed under this
+            License.  Each licensee is addressed as &ldquo;you&rdquo;.  &ldquo;Licensees&rdquo; and
+            &ldquo;recipients&rdquo; may be individuals or organizations.</p>
 
+            <p>To &ldquo;modify&rdquo; a work means to copy from or adapt all or part of the work
+            in a fashion requiring copyright permission, other than the making of an
+            exact copy.  The resulting work is called a &ldquo;modified version&rdquo; of the
+            earlier work or a work &ldquo;based on&rdquo; the earlier work.</p>
 
-            <h2>Disclaimers</h2>
+            <p>A &ldquo;covered work&rdquo; means either the unmodified Program or a work based
+            on the Program.</p>
 
-            <p>The site is provided on an "as-is" and "as available" basis, and company and our suppliers expressly disclaim any and all warranties and conditions of any kind, whether express, implied, or statutory, including all warranties or conditions of merchantability, fitness for a particular purpose, title, quiet enjoyment, accuracy, or non-infringement.  We and our suppliers make not guarantee that the site will meet your requirements, will be available on an uninterrupted, timely, secure, or error-free basis, or will be accurate, reliable, free of viruses or other harmful code, complete, legal, or safe.  If applicable law requires any warranties with respect to the site, all such warranties are limited in duration to ninety (90) days from the date of first use.</p>
+            <p>To &ldquo;propagate&rdquo; a work means to do anything with it that, without
+            permission, would make you directly or secondarily liable for
+            infringement under applicable copyright law, except executing it on a
+            computer or modifying a private copy.  Propagation includes copying,
+            distribution (with or without modification), making available to the
+            public, and in some countries other activities as well.</p>
 
-            <p>Some jurisdictions do not allow the exclusion of implied warranties, so the above exclusion may not apply to you.  Some jurisdictions do not allow limitations on how long an implied warranty lasts, so the above limitation may not apply to you.</p>
+            <p>To &ldquo;convey&rdquo; a work means any kind of propagation that enables other
+            parties to make or receive copies.  Mere interaction with a user through
+            a computer network, with no transfer of a copy, is not conveying.</p>
 
-            <h2>Limitation on Liability</h2>
+            <p>An interactive user interface displays &ldquo;Appropriate Legal Notices&rdquo;
+            to the extent that it includes a convenient and prominently visible
+            feature that (1) displays an appropriate copyright notice, and (2)
+            tells the user that there is no warranty for the work (except to the
+            extent that warranties are provided), that licensees may convey the
+            work under this License, and how to view a copy of this License.  If
+            the interface presents a list of user commands or options, such as a
+            menu, a prominent item in the list meets this criterion.</p>
 
-            <p>To the maximum extent permitted by law, in no event shall company or our suppliers be liable to you or any third-party for any lost profits, lost data, costs of procurement of substitute products, or any indirect, consequential, exemplary, incidental, special or punitive damages arising from or relating to these terms or your use of, or incapability to use the site even if company has been advised of the possibility of such damages.  Access to and use of the site is at your own discretion and risk, and you will be solely responsible for any damage to your device or computer system, or loss of data resulting therefrom.</p>
+            <h5 id="section1">1. Source Code.</h5>
 
-            <p>To the maximum extent permitted by law, notwithstanding anything to the contrary contained herein, our liability to you for any damages arising from or related to this agreement, will at all times be limited to a maximum of fifty U.S. dollars (u.s. $50). The existence of more than one claim will not enlarge this limit.  You agree that our suppliers will have no liability of any kind arising from or relating to this agreement.</p>
+            <p>The &ldquo;source code&rdquo; for a work means the preferred form of the work
+            for making modifications to it.  &ldquo;Object code&rdquo; means any non-source
+            form of a work.</p>
 
-            <p>Some jurisdictions do not allow the limitation or exclusion of liability for incidental or consequential damages, so the above limitation or exclusion may not apply to you.</p>
+            <p>A &ldquo;Standard Interface&rdquo; means an interface that either is an official
+            standard defined by a recognized standards body, or, in the case of
+            interfaces specified for a particular programming language, one that
+            is widely used among developers working in that language.</p>
 
-            <p><strong>Term and Termination.</strong> Subject to this Section, these Terms will remain in full force and effect while you use the Site.  We may suspend or terminate your rights to use the Site at any time for any reason at our sole discretion, including for any use of the Site in violation of these Terms.  Upon termination of your rights under these Terms, your Account and right to access and use the Site will terminate immediately.  You understand that any termination of your Account may involve deletion of your User Content associated with your Account from our live databases.  Company will not have any liability whatsoever to you for any termination of your rights under these Terms.  Even after your rights under these Terms are terminated, the following provisions of these Terms will remain in effect: Sections 2 through 2.5, Section 3 and Sections 4 through 10.</p>
+            <p>The &ldquo;System Libraries&rdquo; of an executable work include anything, other
+            than the work as a whole, that (a) is included in the normal form of
+            packaging a Major Component, but which is not part of that Major
+            Component, and (b) serves only to enable use of the work with that
+            Major Component, or to implement a Standard Interface for which an
+            implementation is available to the public in source code form.  A
+            &ldquo;Major Component&rdquo;, in this context, means a major essential component
+            (kernel, window system, and so on) of the specific operating system
+            (if any) on which the executable work runs, or a compiler used to
+            produce the work, or an object code interpreter used to run it.</p>
 
-            <h2>Copyright Policy</h2>
+            <p>The &ldquo;Corresponding Source&rdquo; for a work in object code form means all
+            the source code needed to generate, install, and (for an executable
+            work) run the object code and to modify the work, including scripts to
+            control those activities.  However, it does not include the work's
+            System Libraries, or general-purpose tools or generally available free
+            programs which are used unmodified in performing those activities but
+            which are not part of the work.  For example, Corresponding Source
+            includes interface definition files associated with source files for
+            the work, and the source code for shared libraries and dynamically
+            linked subprograms that the work is specifically designed to require,
+            such as by intimate data communication or control flow between those
+            subprograms and other parts of the work.</p>
 
-            <p>Company respects the intellectual property of others and asks that users of our Site do the same.  In connection with our Site, we have adopted and implemented a policy respecting copyright law that provides for the removal of any infringing materials and for the termination of users of our online Site who are repeated infringers of intellectual property rights, including copyrights.  If you believe that one of our users is, through the use of our Site, unlawfully infringing the copyright(s) in a work, and wish to have the allegedly infringing material removed, the following information in the form of a written notification (pursuant to 17 U.S.C. § 512(c)) must be provided to our designated Copyright Agent:</p>
+            <p>The Corresponding Source need not include anything that users
+            can regenerate automatically from other parts of the Corresponding
+            Source.</p>
 
-            <ul style=>
-                <li>your physical or electronic signature;</li>
-                <li>identification of the copyrighted work(s) that you claim to have been infringed;</li>
-                <li>identification of the material on our services that you claim is infringing and that you request us to remove;</li>
-                <li>sufficient information to permit us to locate such material;</li>
-                <li>your address, telephone number, and e-mail address;</li>
-                <li>a statement that you have a good faith belief that use of the objectionable material is not authorized by the copyright owner, its agent, or under the law; and</li>
-                <li>a statement that the information in the notification is accurate, and under penalty of perjury, that you are either the owner of the copyright that has allegedly been infringed or that you are authorized to act on behalf of the copyright owner.</li>
+            <p>The Corresponding Source for a work in source code form is that
+            same work.</p>
+
+            <h5 id="section2">2. Basic Permissions.</h5>
+
+            <p>All rights granted under this License are granted for the term of
+            copyright on the Program, and are irrevocable provided the stated
+            conditions are met.  This License explicitly affirms your unlimited
+            permission to run the unmodified Program.  The output from running a
+            covered work is covered by this License only if the output, given its
+            content, constitutes a covered work.  This License acknowledges your
+            rights of fair use or other equivalent, as provided by copyright law.</p>
+
+            <p>You may make, run and propagate covered works that you do not
+            convey, without conditions so long as your license otherwise remains
+            in force.  You may convey covered works to others for the sole purpose
+            of having them make modifications exclusively for you, or provide you
+            with facilities for running those works, provided that you comply with
+            the terms of this License in conveying all material for which you do
+            not control copyright.  Those thus making or running the covered works
+            for you must do so exclusively on your behalf, under your direction
+            and control, on terms that prohibit them from making any copies of
+            your copyrighted material outside their relationship with you.</p>
+
+            <p>Conveying under any other circumstances is permitted solely under
+            the conditions stated below.  Sublicensing is not allowed; section 10
+            makes it unnecessary.</p>
+
+            <h5 id="section3">3. Protecting Users' Legal Rights From Anti-Circumvention Law.</h5>
+
+            <p>No covered work shall be deemed part of an effective technological
+            measure under any applicable law fulfilling obligations under article
+            11 of the WIPO copyright treaty adopted on 20 December 1996, or
+            similar laws prohibiting or restricting circumvention of such
+            measures.</p>
+
+            <p>When you convey a covered work, you waive any legal power to forbid
+            circumvention of technological measures to the extent such circumvention
+            is effected by exercising rights under this License with respect to
+            the covered work, and you disclaim any intention to limit operation or
+            modification of the work as a means of enforcing, against the work's
+            users, your or third parties' legal rights to forbid circumvention of
+            technological measures.</p>
+
+            <h5 id="section4">4. Conveying Verbatim Copies.</h5>
+
+            <p>You may convey verbatim copies of the Program's source code as you
+            receive it, in any medium, provided that you conspicuously and
+            appropriately publish on each copy an appropriate copyright notice;
+            keep intact all notices stating that this License and any
+            non-permissive terms added in accord with section 7 apply to the code;
+            keep intact all notices of the absence of any warranty; and give all
+            recipients a copy of this License along with the Program.</p>
+
+            <p>You may charge any price or no price for each copy that you convey,
+            and you may offer support or warranty protection for a fee.</p>
+
+            <h5 id="section5">5. Conveying Modified Source Versions.</h5>
+
+            <p>You may convey a work based on the Program, or the modifications to
+            produce it from the Program, in the form of source code under the
+            terms of section 4, provided that you also meet all of these conditions:</p>
+
+            <ul>
+            <li>a) The work must carry prominent notices stating that you modified
+                it, and giving a relevant date.</li>
+
+            <li>b) The work must carry prominent notices stating that it is
+                released under this License and any conditions added under section
+                7.  This requirement modifies the requirement in section 4 to
+                &ldquo;keep intact all notices&rdquo;.</li>
+
+            <li>c) You must license the entire work, as a whole, under this
+                License to anyone who comes into possession of a copy.  This
+                License will therefore apply, along with any applicable section 7
+                additional terms, to the whole of the work, and all its parts,
+                regardless of how they are packaged.  This License gives no
+                permission to license the work in any other way, but it does not
+                invalidate such permission if you have separately received it.</li>
+
+            <li>d) If the work has interactive user interfaces, each must display
+                Appropriate Legal Notices; however, if the Program has interactive
+                interfaces that do not display Appropriate Legal Notices, your
+                work need not make them do so.</li>
             </ul>
 
-            <p>Please note that, pursuant to 17 U.S.C. § 512(f), any misrepresentation of material fact in a written notification automatically subjects the complaining party to liability for any damages, costs and attorney’s fees incurred by us in connection with the written notification and allegation of copyright infringement.</p>
+            <p>A compilation of a covered work with other separate and independent
+            works, which are not by their nature extensions of the covered work,
+            and which are not combined with it such as to form a larger program,
+            in or on a volume of a storage or distribution medium, is called an
+            &ldquo;aggregate&rdquo; if the compilation and its resulting copyright are not
+            used to limit the access or legal rights of the compilation's users
+            beyond what the individual works permit.  Inclusion of a covered work
+            in an aggregate does not cause this License to apply to the other
+            parts of the aggregate.</p>
 
-            <h2>General</h2>
+            <h5 id="section6">6. Conveying Non-Source Forms.</h5>
 
-            <p>These Terms are subject to occasional revision, and if we make any substantial changes, we may notify you by sending you an e-mail to the last e-mail address you provided to us and/or by prominently posting notice of the changes on our Site.  You are responsible for providing us with your most current e-mail address.  In the event that the last e-mail address that you have provided us is not valid our dispatch of the e-mail containing such notice will nonetheless constitute effective notice of the changes described in the notice.  Any changes to these Terms will be effective upon the earliest of thirty (30) calendar days following our dispatch of an e-mail notice to you or thirty (30) calendar days following our posting of notice of the changes on our Site.  These changes will be effective immediately for new users of our Site.  Continued use of our Site following notice of such changes shall indicate your acknowledgement of such changes and agreement to be bound by the terms and conditions of such changes.
-            Dispute Resolution. Please read this Arbitration Agreement carefully. It is part of your contract with Company and affects your rights.  It contains procedures for MANDATORY BINDING ARBITRATION AND A CLASS ACTION WAIVER.</p>
+            <p>You may convey a covered work in object code form under the terms
+            of sections 4 and 5, provided that you also convey the
+            machine-readable Corresponding Source under the terms of this License,
+            in one of these ways:</p>
 
-            <p><strong>Applicability of Arbitration Agreement.</strong> All claims and disputes in connection with the Terms or the use of any product or service provided by the Company that cannot be resolved informally or in small claims court shall be resolved by binding arbitration on an individual basis under the terms of this Arbitration Agreement.  Unless otherwise agreed to, all arbitration proceedings shall be held in English.  This Arbitration Agreement applies to you and the Company, and to any subsidiaries, affiliates, agents, employees, predecessors in interest, successors, and assigns, as well as all authorized or unauthorized users or beneficiaries of services or goods provided under the Terms.</p>
+            <ul>
+            <li>a) Convey the object code in, or embodied in, a physical product
+                (including a physical distribution medium), accompanied by the
+                Corresponding Source fixed on a durable physical medium
+                customarily used for software interchange.</li>
 
-            <p><strong>Notice Requirement and Informal Dispute Resolution.</strong> Before either party may seek arbitration, the party must first send to the other party a written Notice of Dispute describing the nature and basis of the claim or dispute, and the requested relief.  A Notice to the Company should be sent to: University of Pireaus. After the Notice is received, you and the Company may attempt to resolve the claim or dispute informally.  If you and the Company do not resolve the claim or dispute within thirty (30) days after the Notice is received, either party may begin an arbitration proceeding.  The amount of any settlement offer made by any party may not be disclosed to the arbitrator until after the arbitrator has determined the amount of the award to which either party is entitled.</p>
+            <li>b) Convey the object code in, or embodied in, a physical product
+                (including a physical distribution medium), accompanied by a
+                written offer, valid for at least three years and valid for as
+                long as you offer spare parts or customer support for that product
+                model, to give anyone who possesses the object code either (1) a
+                copy of the Corresponding Source for all the software in the
+                product that is covered by this License, on a durable physical
+                medium customarily used for software interchange, for a price no
+                more than your reasonable cost of physically performing this
+                conveying of source, or (2) access to copy the
+                Corresponding Source from a network server at no charge.</li>
 
-            <p><strong>Arbitration Rules.</strong> Arbitration shall be initiated through the American Arbitration Association, an established alternative dispute resolution provider that offers arbitration as set forth in this section.  If AAA is not available to arbitrate, the parties shall agree to select an alternative ADR Provider.  The rules of the ADR Provider shall govern all aspects of the arbitration except to the extent such rules are in conflict with the Terms.  The AAA Consumer Arbitration Rules governing the arbitration are available online at adr.org or by calling the AAA at 1-800-778-7879.  The arbitration shall be conducted by a single, neutral arbitrator.  Any claims or disputes where the total amount of the award sought is less than Ten Thousand U.S. Dollars (US $10,000.00) may be resolved through binding non-appearance-based arbitration, at the option of the party seeking relief.  For claims or disputes where the total amount of the award sought is Ten Thousand U.S. Dollars (US $10,000.00) or more, the right to a hearing will be determined by the Arbitration Rules.  Any hearing will be held in a location within 100 miles of your residence, unless you reside outside of the United States, and unless the parties agree otherwise.  If you reside outside of the U.S., the arbitrator shall give the parties reasonable notice of the date, time and place of any oral hearings. Any judgment on the award rendered by the arbitrator may be entered in any court of competent jurisdiction.  If the arbitrator grants you an award that is greater than the last settlement offer that the Company made to you prior to the initiation of arbitration, the Company will pay you the greater of the award or $2,500.00.  Each party shall bear its own costs and disbursements arising out of the arbitration and shall pay an equal share of the fees and costs of the ADR Provider.</p>
+            <li>c) Convey individual copies of the object code with a copy of the
+                written offer to provide the Corresponding Source.  This
+                alternative is allowed only occasionally and noncommercially, and
+                only if you received the object code with such an offer, in accord
+                with subsection 6b.</li>
 
-            <p><strong>Additional Rules for Non-Appearance Based Arbitration.</strong> If non-appearance based arbitration is elected, the arbitration shall be conducted by telephone, online and/or based solely on written submissions; the specific manner shall be chosen by the party initiating the arbitration.  The arbitration shall not involve any personal appearance by the parties or witnesses unless otherwise agreed by the parties.</p>
+            <li>d) Convey the object code by offering access from a designated
+                place (gratis or for a charge), and offer equivalent access to the
+                Corresponding Source in the same way through the same place at no
+                further charge.  You need not require recipients to copy the
+                Corresponding Source along with the object code.  If the place to
+                copy the object code is a network server, the Corresponding Source
+                may be on a different server (operated by you or a third party)
+                that supports equivalent copying facilities, provided you maintain
+                clear directions next to the object code saying where to find the
+                Corresponding Source.  Regardless of what server hosts the
+                Corresponding Source, you remain obligated to ensure that it is
+                available for as long as needed to satisfy these requirements.</li>
 
-            <p><strong>Time Limits.</strong> If you or the Company pursues arbitration, the arbitration action must be initiated and/or demanded within the statute of limitations and within any deadline imposed under the AAA Rules for the pertinent claim.</p>
+            <li>e) Convey the object code using peer-to-peer transmission, provided
+                you inform other peers where the object code and Corresponding
+                Source of the work are being offered to the general public at no
+                charge under subsection 6d.</li>
+            </ul>
 
-            <p><strong>Authority of Arbitrator.</strong> If arbitration is initiated, the arbitrator will decide the rights and liabilities of you and the Company, and the dispute will not be consolidated with any other matters or joined with any other cases or parties.  The arbitrator shall have the authority to grant motions dispositive of all or part of any claim.  The arbitrator shall have the authority to award monetary damages, and to grant any non-monetary remedy or relief available to an individual under applicable law, the AAA Rules, and the Terms.  The arbitrator shall issue a written award and statement of decision describing the essential findings and conclusions on which the award is based.  The arbitrator has the same authority to award relief on an individual basis that a judge in a court of law would have.  The award of the arbitrator is final and binding upon you and the Company.</p>
+            <p>A separable portion of the object code, whose source code is excluded
+            from the Corresponding Source as a System Library, need not be
+            included in conveying the object code work.</p>
 
-            <p><strong>Waiver of Jury Trial.</strong> THE PARTIES HEREBY WAIVE THEIR CONSTITUTIONAL AND STATUTORY RIGHTS TO GO TO COURT AND HAVE A TRIAL IN FRONT OF A JUDGE OR A JURY, instead electing that all claims and disputes shall be resolved by arbitration under this Arbitration Agreement.  Arbitration procedures are typically more limited, more efficient and less expensive than rules applicable in a court and are subject to very limited review by a court.  In the event any litigation should arise between you and the Company in any state or federal court in a suit to vacate or enforce an arbitration award or otherwise, YOU AND THE COMPANY WAIVE ALL RIGHTS TO A JURY TRIAL, instead electing that the dispute be resolved by a judge.</p>
+            <p>A &ldquo;User Product&rdquo; is either (1) a &ldquo;consumer product&rdquo;, which means any
+            tangible personal property which is normally used for personal, family,
+            or household purposes, or (2) anything designed or sold for incorporation
+            into a dwelling.  In determining whether a product is a consumer product,
+            doubtful cases shall be resolved in favor of coverage.  For a particular
+            product received by a particular user, &ldquo;normally used&rdquo; refers to a
+            typical or common use of that class of product, regardless of the status
+            of the particular user or of the way in which the particular user
+            actually uses, or expects or is expected to use, the product.  A product
+            is a consumer product regardless of whether the product has substantial
+            commercial, industrial or non-consumer uses, unless such uses represent
+            the only significant mode of use of the product.</p>
 
-            <p><strong>Waiver of Class or Consolidated Actions.</strong> All claims and disputes within the scope of this arbitration agreement must be arbitrated or litigated on an individual basis and not on a class basis, and claims of more than one customer or user cannot be arbitrated or litigated jointly or consolidated with those of any other customer or user.</p>
+            <p>&ldquo;Installation Information&rdquo; for a User Product means any methods,
+            procedures, authorization keys, or other information required to install
+            and execute modified versions of a covered work in that User Product from
+            a modified version of its Corresponding Source.  The information must
+            suffice to ensure that the continued functioning of the modified object
+            code is in no case prevented or interfered with solely because
+            modification has been made.</p>
 
-            <p><strong>Confidentiality.</strong> All aspects of the arbitration proceeding shall be strictly confidential.  The parties agree to maintain confidentiality unless otherwise required by law.  This paragraph shall not prevent a party from submitting to a court of law any information necessary to enforce this Agreement, to enforce an arbitration award, or to seek injunctive or equitable relief.</p>
+            <p>If you convey an object code work under this section in, or with, or
+            specifically for use in, a User Product, and the conveying occurs as
+            part of a transaction in which the right of possession and use of the
+            User Product is transferred to the recipient in perpetuity or for a
+            fixed term (regardless of how the transaction is characterized), the
+            Corresponding Source conveyed under this section must be accompanied
+            by the Installation Information.  But this requirement does not apply
+            if neither you nor any third party retains the ability to install
+            modified object code on the User Product (for example, the work has
+            been installed in ROM).</p>
 
-            <p><strong>Severability.</strong> If any part or parts of this Arbitration Agreement are found under the law to be invalid or unenforceable by a court of competent jurisdiction, then such specific part or parts shall be of no force and effect and shall be severed and the remainder of the Agreement shall continue in full force and effect.</p>
+            <p>The requirement to provide Installation Information does not include a
+            requirement to continue to provide support service, warranty, or updates
+            for a work that has been modified or installed by the recipient, or for
+            the User Product in which it has been modified or installed.  Access to a
+            network may be denied when the modification itself materially and
+            adversely affects the operation of the network or violates the rules and
+            protocols for communication across the network.</p>
 
-            <p><strong>Right to Waive.</strong> Any or all of the rights and limitations set forth in this Arbitration Agreement may be waived by the party against whom the claim is asserted.  Such waiver shall not waive or affect any other portion of this Arbitration Agreement.</p>
+            <p>Corresponding Source conveyed, and Installation Information provided,
+            in accord with this section must be in a format that is publicly
+            documented (and with an implementation available to the public in
+            source code form), and must require no special password or key for
+            unpacking, reading or copying.</p>
 
-            <p><strong>Survival of Agreement.</strong> This Arbitration Agreement will survive the termination of your relationship with Company.</p>
+            <h5 id="section7">7. Additional Terms.</h5>
 
-            <p><strong>Small Claims Court.</strong> Nonetheless the foregoing, either you or the Company may bring an individual action in small claims court.</p>
+            <p>&ldquo;Additional permissions&rdquo; are terms that supplement the terms of this
+            License by making exceptions from one or more of its conditions.
+            Additional permissions that are applicable to the entire Program shall
+            be treated as though they were included in this License, to the extent
+            that they are valid under applicable law.  If additional permissions
+            apply only to part of the Program, that part may be used separately
+            under those permissions, but the entire Program remains governed by
+            this License without regard to the additional permissions.</p>
 
-            <p><strong>Emergency Equitable Relief.</strong> Anyhow the foregoing, either party may seek emergency equitable relief before a state or federal court in order to maintain the status quo pending arbitration.  A request for interim measures shall not be deemed a waiver of any other rights or obligations under this Arbitration Agreement.</p>
+            <p>When you convey a copy of a covered work, you may at your option
+            remove any additional permissions from that copy, or from any part of
+            it.  (Additional permissions may be written to require their own
+            removal in certain cases when you modify the work.)  You may place
+            additional permissions on material, added by you to a covered work,
+            for which you have or can give appropriate copyright permission.</p>
 
-            <p><strong>Claims Not Subject to Arbitration.</strong> Notwithstanding the foregoing, claims of defamation, violation of the Computer Fraud and Abuse Act, and infringement or misappropriation of the other party’s patent, copyright, trademark or trade secrets shall not be subject to this Arbitration Agreement.</p>
+            <p>Notwithstanding any other provision of this License, for material you
+            add to a covered work, you may (if authorized by the copyright holders of
+            that material) supplement the terms of this License with terms:</p>
 
-            <p>In any circumstances where the foregoing Arbitration Agreement permits the parties to litigate in court, the parties hereby agree to submit to the personal jurisdiction of the courts located within Netherlands County, California, for such purposes.</p>
+            <ul>
+            <li>a) Disclaiming warranty or limiting liability differently from the
+                terms of sections 15 and 16 of this License; or</li>
 
-            <p>The Site may be subject to U.S. export control laws and may be subject to export or import regulations in other countries. You agree not to export, re-export, or transfer, directly or indirectly, any U.S. technical data acquired from Company, or any products utilizing such data, in violation of the United States export laws or regulations.</p>
+            <li>b) Requiring preservation of specified reasonable legal notices or
+                author attributions in that material or in the Appropriate Legal
+                Notices displayed by works containing it; or</li>
 
-            <p>Company is located at the address in Section 10.8. If you are a California resident, you may report complaints to the Complaint Assistance Unit of the Division of Consumer Product of the California Department of Consumer Affairs by contacting them in writing at 400 R Street, Sacramento, CA 95814, or by telephone at (800) 952-5210.</p>
+            <li>c) Prohibiting misrepresentation of the origin of that material, or
+                requiring that modified versions of such material be marked in
+                reasonable ways as different from the original version; or</li>
 
-            <p><strong>Electronic Communications.</strong> The communications between you and Company use electronic means, whether you use the Site or send us emails, or whether Company posts notices on the Site or communicates with you via email. For contractual purposes, you (a) consent to receive communications from Company in an electronic form; and (b) agree that all terms and conditions, agreements, notices, disclosures, and other communications that Company provides to you electronically satisfy any legal obligation that such communications would satisfy if it were be in a hard copy writing.</p>
+            <li>d) Limiting the use for publicity purposes of names of licensors or
+                authors of the material; or</li>
 
-            <p><strong>Entire Terms.</strong> These Terms constitute the entire agreement between you and us regarding the use of the Site. Our failure to exercise or enforce any right or provision of these Terms shall not operate as a waiver of such right or provision. The section titles in these Terms are for convenience only and have no legal or contractual effect. The word "including" means "including without limitation". If any provision of these Terms is held to be invalid or unenforceable, the other provisions of these Terms will be unimpaired and the invalid or unenforceable provision will be deemed modified so that it is valid and enforceable to the maximum extent permitted by law.  Your relationship to Company is that of an independent contractor, and neither party is an agent or partner of the other.  These Terms, and your rights and obligations herein, may not be assigned, subcontracted, delegated, or otherwise transferred by you without Company’s prior written consent, and any attempted assignment, subcontract, delegation, or transfer in violation of the foregoing will be null and void.  Company may freely assign these Terms.  The terms and conditions set forth in these Terms shall be binding upon assignees.</p>
+            <li>e) Declining to grant rights under trademark law for use of some
+                trade names, trademarks, or service marks; or</li>
 
-            <p><strong>Your Privacy.</strong> Please read our Privacy Policy.</p>
+            <li>f) Requiring indemnification of licensors and authors of that
+                material by anyone who conveys the material (or modified versions of
+                it) with contractual assumptions of liability to the recipient, for
+                any liability that these contractual assumptions directly impose on
+                those licensors and authors.</li>
+            </ul>
 
-            <p><strong>Copyright/Trademark Information.</strong> Copyright ©. All rights reserved.  All trademarks, logos and service marks displayed on the Site are our property or the property of other third-parties. You are not permitted to use these Marks without our prior written consent or the consent of such third party which may own the Marks.</p>
+            <p>All other non-permissive additional terms are considered &ldquo;further
+            restrictions&rdquo; within the meaning of section 10.  If the Program as you
+            received it, or any part of it, contains a notice stating that it is
+            governed by this License along with a term that is a further
+            restriction, you may remove that term.  If a license document contains
+            a further restriction but permits relicensing or conveying under this
+            License, you may add to a covered work material governed by the terms
+            of that license document, provided that the further restriction does
+            not survive such relicensing or conveying.</p>
+
+            <p>If you add terms to a covered work in accord with this section, you
+            must place, in the relevant source files, a statement of the
+            additional terms that apply to those files, or a notice indicating
+            where to find the applicable terms.</p>
+
+            <p>Additional terms, permissive or non-permissive, may be stated in the
+            form of a separately written license, or stated as exceptions;
+            the above requirements apply either way.</p>
+
+            <h5 id="section8">8. Termination.</h5>
+
+            <p>You may not propagate or modify a covered work except as expressly
+            provided under this License.  Any attempt otherwise to propagate or
+            modify it is void, and will automatically terminate your rights under
+            this License (including any patent licenses granted under the third
+            paragraph of section 11).</p>
+
+            <p>However, if you cease all violation of this License, then your
+            license from a particular copyright holder is reinstated (a)
+            provisionally, unless and until the copyright holder explicitly and
+            finally terminates your license, and (b) permanently, if the copyright
+            holder fails to notify you of the violation by some reasonable means
+            prior to 60 days after the cessation.</p>
+
+            <p>Moreover, your license from a particular copyright holder is
+            reinstated permanently if the copyright holder notifies you of the
+            violation by some reasonable means, this is the first time you have
+            received notice of violation of this License (for any work) from that
+            copyright holder, and you cure the violation prior to 30 days after
+            your receipt of the notice.</p>
+
+            <p>Termination of your rights under this section does not terminate the
+            licenses of parties who have received copies or rights from you under
+            this License.  If your rights have been terminated and not permanently
+            reinstated, you do not qualify to receive new licenses for the same
+            material under section 10.</p>
+
+            <h5 id="section9">9. Acceptance Not Required for Having Copies.</h5>
+
+            <p>You are not required to accept this License in order to receive or
+            run a copy of the Program.  Ancillary propagation of a covered work
+            occurring solely as a consequence of using peer-to-peer transmission
+            to receive a copy likewise does not require acceptance.  However,
+            nothing other than this License grants you permission to propagate or
+            modify any covered work.  These actions infringe copyright if you do
+            not accept this License.  Therefore, by modifying or propagating a
+            covered work, you indicate your acceptance of this License to do so.</p>
+
+            <h5 id="section10">10. Automatic Licensing of Downstream Recipients.</h5>
+
+            <p>Each time you convey a covered work, the recipient automatically
+            receives a license from the original licensors, to run, modify and
+            propagate that work, subject to this License.  You are not responsible
+            for enforcing compliance by third parties with this License.</p>
+
+            <p>An &ldquo;entity transaction&rdquo; is a transaction transferring control of an
+            organization, or substantially all assets of one, or subdividing an
+            organization, or merging organizations.  If propagation of a covered
+            work results from an entity transaction, each party to that
+            transaction who receives a copy of the work also receives whatever
+            licenses to the work the party's predecessor in interest had or could
+            give under the previous paragraph, plus a right to possession of the
+            Corresponding Source of the work from the predecessor in interest, if
+            the predecessor has it or can get it with reasonable efforts.</p>
+
+            <p>You may not impose any further restrictions on the exercise of the
+            rights granted or affirmed under this License.  For example, you may
+            not impose a license fee, royalty, or other charge for exercise of
+            rights granted under this License, and you may not initiate litigation
+            (including a cross-claim or counterclaim in a lawsuit) alleging that
+            any patent claim is infringed by making, using, selling, offering for
+            sale, or importing the Program or any portion of it.</p>
+
+            <h5 id="section11">11. Patents.</h5>
+
+            <p>A &ldquo;contributor&rdquo; is a copyright holder who authorizes use under this
+            License of the Program or a work on which the Program is based.  The
+            work thus licensed is called the contributor's &ldquo;contributor version&rdquo;.</p>
+
+            <p>A contributor's &ldquo;essential patent claims&rdquo; are all patent claims
+            owned or controlled by the contributor, whether already acquired or
+            hereafter acquired, that would be infringed by some manner, permitted
+            by this License, of making, using, or selling its contributor version,
+            but do not include claims that would be infringed only as a
+            consequence of further modification of the contributor version.  For
+            purposes of this definition, &ldquo;control&rdquo; includes the right to grant
+            patent sublicenses in a manner consistent with the requirements of
+            this License.</p>
+
+            <p>Each contributor grants you a non-exclusive, worldwide, royalty-free
+            patent license under the contributor's essential patent claims, to
+            make, use, sell, offer for sale, import and otherwise run, modify and
+            propagate the contents of its contributor version.</p>
+
+            <p>In the following three paragraphs, a &ldquo;patent license&rdquo; is any express
+            agreement or commitment, however denominated, not to enforce a patent
+            (such as an express permission to practice a patent or covenant not to
+            sue for patent infringement).  To &ldquo;grant&rdquo; such a patent license to a
+            party means to make such an agreement or commitment not to enforce a
+            patent against the party.</p>
+
+            <p>If you convey a covered work, knowingly relying on a patent license,
+            and the Corresponding Source of the work is not available for anyone
+            to copy, free of charge and under the terms of this License, through a
+            publicly available network server or other readily accessible means,
+            then you must either (1) cause the Corresponding Source to be so
+            available, or (2) arrange to deprive yourself of the benefit of the
+            patent license for this particular work, or (3) arrange, in a manner
+            consistent with the requirements of this License, to extend the patent
+            license to downstream recipients.  &ldquo;Knowingly relying&rdquo; means you have
+            actual knowledge that, but for the patent license, your conveying the
+            covered work in a country, or your recipient's use of the covered work
+            in a country, would infringe one or more identifiable patents in that
+            country that you have reason to believe are valid.</p>
+            
+            <p>If, pursuant to or in connection with a single transaction or
+            arrangement, you convey, or propagate by procuring conveyance of, a
+            covered work, and grant a patent license to some of the parties
+            receiving the covered work authorizing them to use, propagate, modify
+            or convey a specific copy of the covered work, then the patent license
+            you grant is automatically extended to all recipients of the covered
+            work and works based on it.</p>
+
+            <p>A patent license is &ldquo;discriminatory&rdquo; if it does not include within
+            the scope of its coverage, prohibits the exercise of, or is
+            conditioned on the non-exercise of one or more of the rights that are
+            specifically granted under this License.  You may not convey a covered
+            work if you are a party to an arrangement with a third party that is
+            in the business of distributing software, under which you make payment
+            to the third party based on the extent of your activity of conveying
+            the work, and under which the third party grants, to any of the
+            parties who would receive the covered work from you, a discriminatory
+            patent license (a) in connection with copies of the covered work
+            conveyed by you (or copies made from those copies), or (b) primarily
+            for and in connection with specific products or compilations that
+            contain the covered work, unless you entered into that arrangement,
+            or that patent license was granted, prior to 28 March 2007.</p>
+
+            <p>Nothing in this License shall be construed as excluding or limiting
+            any implied license or other defenses to infringement that may
+            otherwise be available to you under applicable patent law.</p>
+
+            <h5 id="section12">12. No Surrender of Others' Freedom.</h5>
+
+            <p>If conditions are imposed on you (whether by court order, agreement or
+            otherwise) that contradict the conditions of this License, they do not
+            excuse you from the conditions of this License.  If you cannot convey a
+            covered work so as to satisfy simultaneously your obligations under this
+            License and any other pertinent obligations, then as a consequence you may
+            not convey it at all.  For example, if you agree to terms that obligate you
+            to collect a royalty for further conveying from those to whom you convey
+            the Program, the only way you could satisfy both those terms and this
+            License would be to refrain entirely from conveying the Program.</p>
+
+            <h5 id="section13">13. Use with the GNU Affero General Public License.</h5>
+
+            <p>Notwithstanding any other provision of this License, you have
+            permission to link or combine any covered work with a work licensed
+            under version 3 of the GNU Affero General Public License into a single
+            combined work, and to convey the resulting work.  The terms of this
+            License will continue to apply to the part which is the covered work,
+            but the special requirements of the GNU Affero General Public License,
+            section 13, concerning interaction through a network will apply to the
+            combination as such.</p>
+
+            <h5 id="section14">14. Revised Versions of this License.</h5>
+
+            <p>The Free Software Foundation may publish revised and/or new versions of
+            the GNU General Public License from time to time.  Such new versions will
+            be similar in spirit to the present version, but may differ in detail to
+            address new problems or concerns.</p>
+
+            <p>Each version is given a distinguishing version number.  If the
+            Program specifies that a certain numbered version of the GNU General
+            Public License &ldquo;or any later version&rdquo; applies to it, you have the
+            option of following the terms and conditions either of that numbered
+            version or of any later version published by the Free Software
+            Foundation.  If the Program does not specify a version number of the
+            GNU General Public License, you may choose any version ever published
+            by the Free Software Foundation.</p>
+
+            <p>If the Program specifies that a proxy can decide which future
+            versions of the GNU General Public License can be used, that proxy's
+            public statement of acceptance of a version permanently authorizes you
+            to choose that version for the Program.</p>
+
+            <p>Later license versions may give you additional or different
+            permissions.  However, no additional obligations are imposed on any
+            author or copyright holder as a result of your choosing to follow a
+            later version.</p>
+
+            <h5 id="section15">15. Disclaimer of Warranty.</h5>
+
+            <p>THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+            APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+            HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM &ldquo;AS IS&rdquo; WITHOUT WARRANTY
+            OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+            THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+            PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+            IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+            ALL NECESSARY SERVICING, REPAIR OR CORRECTION.</p>
+
+            <h5 id="section16">16. Limitation of Liability.</h5>
+
+            <p>IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+            WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+            THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+            GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+            USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+            DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+            PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+            EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+            SUCH DAMAGES.</p>
+
+            <h5 id="section17">17. Interpretation of Sections 15 and 16.</h5>
+
+            <p>If the disclaimer of warranty and limitation of liability provided
+            above cannot be given local legal effect according to their terms,
+            reviewing courts shall apply local law that most closely approximates
+            an absolute waiver of all civil liability in connection with the
+            Program, unless a warranty or assumption of liability accompanies a
+            copy of the Program in return for a fee.</p>
+
+            <p>END OF TERMS AND CONDITIONS</p>
+
+            <h4 id="howto">How to Apply These Terms to Your New Programs</h4>
+
+            <p>If you develop a new program, and you want it to be of the greatest
+            possible use to the public, the best way to achieve this is to make it
+            free software which everyone can redistribute and change under these terms.</p>
+
+            <p>To do so, attach the following notices to the program.  It is safest
+            to attach them to the start of each source file to most effectively
+            state the exclusion of warranty; and each file should have at least
+            the &ldquo;copyright&rdquo; line and a pointer to where the full notice is found.</p>
+
+            <pre>    &lt;one line to give the program's name and a brief idea of what it does.&gt;
+                Copyright (C) &lt;year&gt;  &lt;name of author&gt;
+
+                This program is free software: you can redistribute it and/or modify
+                it under the terms of the GNU General Public License as published by
+                the Free Software Foundation, either version 3 of the License, or
+                (at your option) any later version.
+
+                This program is distributed in the hope that it will be useful,
+                but WITHOUT ANY WARRANTY; without even the implied warranty of
+                MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+                GNU General Public License for more details.
+
+                You should have received a copy of the GNU General Public License
+                along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.
+            </pre>
+
+            <p>Also add information on how to contact you by electronic and paper mail.</p>
+
+            <p>If the program does terminal interaction, make it output a short
+            notice like this when it starts in an interactive mode:</p>
+
+            <pre>    &lt;program&gt;  Copyright (C) &lt;year&gt;  &lt;name of author&gt;
+                This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+                This is free software, and you are welcome to redistribute it
+                under certain conditions; type `show c' for details.
+            </pre>
+
+            <p>The hypothetical commands `show w' and `show c' should show the appropriate
+            parts of the General Public License.  Of course, your program's commands
+            might be different; for a GUI interface, you would use an &ldquo;about box&rdquo;.</p>
+
+            <p>You should also get your employer (if you work as a programmer) or school,
+            if any, to sign a &ldquo;copyright disclaimer&rdquo; for the program, if necessary.
+            For more information on this, and how to apply and follow the GNU GPL, see
+            &lt;<a href="https://www.gnu.org/licenses/">https://www.gnu.org/licenses/</a>&gt;.</p>
+
+            <p>The GNU General Public License does not permit incorporating your program
+            into proprietary programs.  If your program is a subroutine library, you
+            may consider it more useful to permit linking proprietary applications with
+            the library.  If this is what you want to do, use the GNU Lesser General
+            Public License instead of this License.  But first, please read
+            &lt;<a href="https://www.gnu.org/licenses/why-not-lgpl.html">https://www.gnu.org/licenses/why-not-lgpl.html</a>&gt;.</p>
 
             <h2>Contact Information</h2>
 
-            <p>Address: University of Pireaus</p>
-            <p>Email: anna.androvitsanea@gmail.com</p>
+            <p>Address: Pireaus</p>
+            <p>Email: 1sticwt@gmail.com</p>
     </div>
     </footer>
 </body>
