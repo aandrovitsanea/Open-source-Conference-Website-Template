@@ -22,32 +22,33 @@ mysqli_set_charset($conn, "utf8");
 // if (!mysqli_query($conn, "DROP TABLE `conference_db`")){
 //             echo "Error: " . mysqli_error($conn);
 // }
-// 
+
 // echo "<br><br>";
 // echo "Create new table";
 // echo "<br><br>";
-// // create table in case of re-running the script
-// // in order to avoid inserting the same data many times
-// 
-if (mysqli_query($conn, "CREATE TABLE `conference_db` (
-                    `fname` varchar(100) NOT NULL,
-                    `lname` varchar(100) NOT NULL,
-                    `dob` DATE NOT NULL,
-                    `gender` varchar(100) NOT NULL,
-                    `country` varchar(100) NOT NULL,
-                    `email` varchar(100) NOT NULL,
-                    `telephone` varchar(20) NOT NULL,
-                    `password` varchar(100) NOT NULL
-                    ) ENGINE=InnoDB DEFAULT CHARSET=utf8")){
-            echo "Create Error: " . mysqli_error($conn);
-}
+// // // create table in case of re-running the script
+// // // in order to avoid inserting the same data many times
+// // 
+// if (!mysqli_query($conn, "CREATE TABLE `conference_db` (
+//                     `fname` varchar(100) NOT NULL,
+//                     `lname` varchar(100) NOT NULL,
+//                     `dob` DATE NOT NULL,
+//                     `gender` varchar(20) NOT NULL,
+//                     `country` varchar(100) NOT NULL,
+//                     `email` varchar(100) NOT NULL,
+//                     `telephone` varchar(10) NOT NULL,
+//                     `username` varchar(8) NOT NULL,
+//                     `password` varchar(8) NOT NULL
+//                     ) ENGINE=InnoDB DEFAULT CHARSET=utf8")){
+//             echo "Create Error: " . mysqli_error($conn);
+// }
 
 echo "Query";
 echo "<br><br>";
 //Δημιουργία ερωτήματος
 
 //$sql = "SELECT * FROM `conference_db`;";
-$sql = "INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `password`) VALUES ('".$_POST['fname']."', '".$_POST['lname']."', '".$_POST['dob']."', '".$_POST['gender']."', '".$_POST['country']."', '".$_POST['email']."', '".$_POST['telephone']."', '".$_POST['password']."');";
+$sql = "INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `username`, `password`) VALUES ('".$_POST['fname']."', '".$_POST['lname']."', '".$_POST['dob']."', '".$_POST['gender']."', '".$_POST['country']."', '".$_POST['email']."', '".$_POST['telephone']."', '".$_POST['username']."','".$_POST['password']."');";
 
 //$sql = "INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `password`) VALUES ('".$_POST['fname']."', '".$_POST['lname']."', '".$_POST['dob']."', '".$_POST['gender']."', 'Germany', '".$_POST['email']."', '".$_POST['telephone']."', '".$_POST['password']."');";
 
@@ -66,18 +67,19 @@ echo "<br><br>";
 
 echo "<table style='border:1px solid black'>";
 
-$sql2 = "SELECT `fname`, `lname`, `dob`, `email` FROM `conference_db` WHERE `email` = '".$_POST['email']."';";
+$sql2 = "SELECT `fname`, `lname`, `dob`, `email`, `username` FROM `conference_db` WHERE `username` = '".$_POST['username']."';";
 
 //εκτέλεση ερωτήματος στη βάση
 $result2 = mysqli_query($conn, $sql2);
 
-echo "<tr><th>First name</th><th>Last name</th><th>Date of Birth</th><th>Email</th></tr>";
+echo "<tr><th>First name</th><th>Last name</th><th>Date of Birth</th><th>Email</th><th>Username</th></tr>";
     // Εμφάνιση αποτελεσμάτων στις γραμμές του πίνακα
     while($row = mysqli_fetch_assoc($result2)) {
     echo "<tr><td>".$row['fname']."</td>".
          "<td>".$row['lname']."</td>".
          "<td>".$row['dob']."</td>".
-         "<td>".$row['email']."</td>.</tr>";
+         "<td>".$row['email']."</td>.".
+         "<td>".$row['username']."</td>.</tr>";
     }
 echo "</table>" ;
 

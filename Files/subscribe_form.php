@@ -49,11 +49,11 @@
     <tr>
         <td><label>Gender</label></td>
         <td><label for="gender">Female</label>
-            <input type="radio" id="female" name="gender" value="female"></td>
+            <input type="radio" id="female" name="gender" value="Mrs"></td>
         <td><label for="gender">Non-binary</label> 
             <input type="radio" id="non_bin" name="gender" value="non_bin"></td>
         <td><label for="gender">Male</label> 
-            <input type="radio" id="male" name="gender" value="male"></td>
+            <input type="radio" id="male" name="gender" value="Mr"></td>
     </tr>
         
     <tr>
@@ -315,15 +315,19 @@
         </tr>
         <tr>
             <td><label for="telephone">Telephone</label></td>
-            <td colspan ="2"><input placeholder="Telephone" type="text" name="telephone" id="telephone"></td>
+            <td colspan ="2"><input placeholder="Telephone" type="text" name="telephone" id="telephone" maxlength ="10"></td>
         </tr>
         <tr>
+        <td><label for="username">Username</label></td>
+        <td colspan="2"><input placeholder="Username (6 - 8 characters)" type="text" id="username" name="username" minlength = "6" maxlength ="8" required></td>
+    </tr>
+        <tr>
             <td><label for="password">Password</label></td>
-            <td colspan ="2"><input type="password" name="password" id="password" maxlength ="8" required></td>
+            <td colspan ="2"><input placeholder="Password (6 - 8 characters)" type="password" name="password" id="password" minlength = "6" maxlength ="8" required></td>
         </tr>
         <tr>
             <td><label for="conf_password">Confirm Password</label></td>
-            <td colspan ="2"><input type="password" name="conf_password" id="conf_password" maxlength ="8" required></td>
+            <td colspan ="2"><input type="password" name="conf_password" id="conf_password" minlength = "6" maxlength ="8" required></td>
         </tr>
         <tr>
             <td></td>

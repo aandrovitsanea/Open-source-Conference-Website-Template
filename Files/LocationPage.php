@@ -20,7 +20,7 @@
         <ul id="NavBar">
             <li><a href="HomePage.php">Home</a></li>
             <li><a href="InfoPage.php">About</a></li>
-            <li> <div href="LocationPage.php" class="dropdown">
+            <li><div href="LocationPage.php" class="dropdown">
                         <button class="dropbtn">Location 
                         <i class="fa fa-caret-down"></i>
                         </button>
