@@ -7,6 +7,8 @@ $password = "";
 $dbname = "personal";
 
 echo "<br>Establishing connection<br>";
+echo "<br>=======================<br>";
+echo "<br>";
 // Δημιουργία σύνδεσης
 $connection = mysqli_connect($servername, $username, $password, $dbname);
 
@@ -51,45 +53,51 @@ $primary_key = "ALTER TABLE `conference_db`
                 
 mysqli_query($connection, $primary_key);*/
 
-echo "Query";
-echo "<br><br>";
-//Δημιουργία ερωτήματος
 
-//$sql = "SELECT * FROM `conference_db`;";
-$sql = "INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `username`, `password`,`consent`) VALUES ('".$_POST['fname']."', '".$_POST['lname']."', '".$_POST['dob']."', '".$_POST['gender']."', '".$_POST['country']."', '".$_POST['email']."', '".$_POST['telephone']."', '".$_POST['username']."','".$_POST['password']."','".$_POST['consent']."');";
+// Check if the email exists already in the database
 
-//$sql = "INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `password`) VALUES ('".$_POST['fname']."', '".$_POST['lname']."', '".$_POST['dob']."', '".$_POST['gender']."', 'Germany', '".$_POST['email']."', '".$_POST['telephone']."', '".$_POST['password']."');";
+$check_email = mysqli_query($connection, "SELECT COUNT(1) FROM `conference_db` WHERE `email` = '".$_POST['email']."';");
 
-//εκτέλεση ερωτήματος στη βάση
-$result = mysqli_query($connection, $sql);
+$row = mysqli_fetch_assoc($check_email);
 
-//έλεγχος αποτελεσμάτων
-if ($result) {
-    //Εμφάνιση αποτελεσμάτων σε μορφή πίνακα
-    echo "<br>Thank you very much for subscribing to our conference!<br>";
-   };
-   
-echo "<br><br>";
-echo "These are your main data";
-echo "<br><br>";
+if($row["COUNT(1)"] == 1){
+        echo "You have already and account under this email!";
+}else{
+    //$sql = "SELECT * FROM `conference_db`;";
+    $sql = "INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `username`, `password`,`consent`) VALUES ('".$_POST['fname']."', '".$_POST['lname']."', '".$_POST['dob']."', '".$_POST['gender']."', '".$_POST['country']."', '".$_POST['email']."', '".$_POST['telephone']."', '".$_POST['username']."','".$_POST['password']."','".$_POST['consent']."');";
 
-echo "<table style='border:1px solid black'>";
+    //εκτέλεση ερωτήματος στη βάση
+    $result = mysqli_query($connection, $sql);
 
-$sql2 = "SELECT `fname`, `lname`, `dob`, `email`, `username` FROM `conference_db` WHERE `username` = '".$_POST['username']."';";
+    //έλεγχος αποτελεσμάτων
+    if ($result) {
+        //Εμφάνιση αποτελεσμάτων σε μορφή πίνακα
+        echo "<br>Thank you very much for subscribing to our conference!<br>";
+    };
+    
+    echo "<br><br>";
+    echo "These are your main data";
+    echo "<br><br>";
 
-//εκτέλεση ερωτήματος στη βάση
-$result2 = mysqli_query($connection, $sql2);
+    echo "<table style='border:1px solid black; border-collapse: collapse; width:70%'>";
+    
+    $sql2 = "SELECT `fname`, `lname`, `dob`, `email`, `username` FROM `conference_db` WHERE `email` = '".$_POST['email']."';";
 
-echo "<tr><th>First name</th><th>Last name</th><th>Date of Birth</th><th>Email</th><th>Username</th></tr>";
-    // Εμφάνιση αποτελεσμάτων στις γραμμές του πίνακα
-    while($row = mysqli_fetch_assoc($result2)) {
-    echo "<tr><td>".$row['fname']."</td>".
-         "<td>".$row['lname']."</td>".
-         "<td>".$row['dob']."</td>".
-         "<td>".$row['email']."</td>".
-         "<td>".$row['username']."</td></tr>";
-    }
-echo "</table>" ;
+    //εκτέλεση ερωτήματος στη βάση
+    $result2 = mysqli_query($connection, $sql2);
+
+    echo "<tr style='border:1px solid black; border-collapse: collapse;'><th>First name</th><th>Last name</th><th>Date of Birth</th><th>Email</th><th>Username</th></tr>";
+        // Εμφάνιση αποτελεσμάτων στις γραμμές του πίνακα
+        while($row = mysqli_fetch_assoc($result2)) {
+        echo "<tr><td>".$row['fname']."</td>".
+            "<td>".$row['lname']."</td>".
+            "<td>".$row['dob']."</td>".
+            "<td>".$row['email']."</td>".
+            "<td>".$row['username']."</td></tr>";
+        };
+    echo "</table>" ;
+
+};
 
 //κλείσιμο σύνδεσης
 mysqli_close($connection);
