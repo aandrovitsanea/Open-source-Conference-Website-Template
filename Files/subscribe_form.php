@@ -9,24 +9,10 @@
     </style>
 </head>
 <body>
-<!------------------------------------------ LOGO -------------------------------------------------------->
+<!------------------------------------------ LOGO and MENY BAR -------------------------------------------------------->
     <?php 
-        echo "<a href='index.php'>
-                <img id='logo' src='img/logo.png'>
-              </a>";  
+       include 'logo_navbar.php';
     ?><br>
-<!---------------------------------------- MENU BAR ------------------------------------------------------>
-    <div id="menu">
-        <ul id="NavBar">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="InfoPage.php">About</a></li>
-            <li><a href="LocationPage.php">Location</a></li>
-            <li><a href="JuryPage.php">Jury</a></li>
-            <li><a href="Program.php">Program</a></li>
-            <li><a href="subscribe_form.php">Subscribe</a></li>
-        </ul>
-    </div>
-    <br>
 <!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
     
 <form id="subscription_form" method="post" action ="data_to_db.php">
@@ -319,7 +305,6 @@
                     <option value="Zaire">Zaire</option>
                     <option value="Zambia">Zambia</option>
                     <option value="Zimbabwe">Zimbabwe</option>
-<<<<<<< HEAD
                 </select>
                 <br><small id="countryError" class="errorText" hidden>Please select a country</small>
             </td>
@@ -329,7 +314,8 @@
                 <td class="formTitle"><label for="email">Email</label></td>
                 <td colspan ="2"><input placeholder="E-mail" type="email" name="email" id="email" pattern=".+@.+{.}.+" onfocus="de_Error('emailError')" required>
                 <br><small id="emailError" class="errorText" hidden>Please enter a valid E-mail</small></td>
-        </tr>
+            </tr>
+
         </tr>
         <!------------------------------------- TELEPHONE ------------------------------------------------>
         <tr>

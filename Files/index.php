@@ -8,25 +8,10 @@
         ?>
     </style>
 </head>
-<body>
-<!------------------------------------------ LOGO -------------------------------------------------------->
-    <?php  
-        echo "<a href='index.php'>
-                <img id='logo' src='img/logo.png'>
-              </a>"; 
+<body><!------------------------------------------ LOGO and MENY BAR -------------------------------------------------------->
+    <?php 
+       include 'logo_navbar.php';
     ?><br>
-<!---------------------------------------- MENU BAR ------------------------------------------------------>
-    <div id="menu">
-        <ul id="NavBar">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="InfoPage.php">About</a></li>
-            <li><a href="LocationPage.php">Location</a></li>
-            <li><a href="JuryPage.php">Jury</a></li>
-            <li><a href="Program.php">Program</a></li>
-            <li><a href="subscribe_form.php">Subscribe</a></li>
-        </ul>
-    </div>
-    <br>
 <!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
     <?php 
         echo "<img id='map_main' class='zoom' height='100%' width='100%' src='img/map_athens.png'>"; 
