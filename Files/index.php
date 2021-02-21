@@ -47,7 +47,7 @@
         
          <p>Your organizing committee, 
             <br><br>
-            Anna A., Leonidas X.
+            Anna A., Leonidas P.
             <br>
         </p>
         
