@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home Page</title>
+    <title>Jury</title>
     <style>
         <?php 
          include 'Style.css'; 
@@ -11,14 +11,14 @@
 <body>
 <!------------------------------------------ LOGO -------------------------------------------------------->
     <?php 
-        echo "<a href='HomePage.php'>
-                <img id='logo' src='logo2.png'>
+        echo "<a href='index.php'>
+                <img id='logo' src='img/logo.png'>
               </a>";  
     ?><br>
 <!---------------------------------------- MENU BAR ------------------------------------------------------>
     <div id="menu">
         <ul id="NavBar">
-            <li><a href="HomePage.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="InfoPage.php">About</a></li>
             <li><a href="LocationPage.php">Location</a></li>
             <li><a href="JuryPage.php">Jury</a></li>
@@ -40,8 +40,8 @@
   <tr>
     <td>David Garcia</td>
     <td><?php 
-        echo "<a href='HomePage.php'>
-                <img id='jury_pic' class = 'zoom_jury' src='David.png'>
+        echo "<a href='index.php'>
+                <img id='jury_pic' class = 'zoom_jury' src='img/David.png'>
               </a>";  
     ?></td>
     <td>Academic Assistant Professor University of California, Berkeley</td>
@@ -52,8 +52,8 @@
   <tr>
     <td>Donna Miller</td>
     <td><?php 
-        echo "<a href='HomePage.php'>
-                <img id='jury_pic' class = 'zoom_jury' src='donna.png'>
+        echo "<a href='index.php'>
+                <img id='jury_pic' class = 'zoom_jury' src='img/donna.png'>
               </a>";  
     ?></td>
     <td>Associate Chair of the Office of Investor Diversity of the University of Pireaus, Greece</td>
@@ -62,8 +62,8 @@
   <tr>
     <td>Michalis Pappalis</td>
     <td><?php 
-        echo "<a href='HomePage.php'>
-                <img id='jury_pic' class = 'zoom_jury' src='Michalis.png'>
+        echo "<a href='index.php'>
+                <img id='jury_pic' class = 'zoom_jury' src='img/Michalis.png'>
               </a>";  
     ?></td>
     <td>Associate Assistant Chancellor of the Committee on Learning Diversity</td>
@@ -72,8 +72,8 @@
   <tr>
     <td>Kira Johnson</td>
     <td><?php 
-        echo "<a href='HomePage.php'>
-                <img id='jury_pic' class = 'zoom_jury' src='Kira.png'>
+        echo "<a href='index.php'>
+                <img id='jury_pic' class = 'zoom_jury' src='img/Kira.png'>
               </a>";  
     ?></td>
     <td>Associate Vice Chancellor of the Office of Investor Partnerships</td>

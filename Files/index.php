@@ -11,17 +11,17 @@
 <body>
 <!------------------------------------------ LOGO -------------------------------------------------------->
     <?php 
-        /*echo "<a href='HomePage.php'>
+        /*echo "<a href='index.php'>
                 <img id='logo' src='logo_bw.png'>
               </a>";*/  
-        echo "<a href='HomePage.php'>
+        echo "<a href='index.php'>
                 <img id='logo' src='logo2.png'>
               </a>"; 
     ?><br>
 <!---------------------------------------- MENU BAR ------------------------------------------------------>
     <div id="menu">
         <ul id="NavBar">
-            <li><a href="HomePage.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="InfoPage.php">About</a></li>
             <li><a href="LocationPage.php">Location</a></li>
             <li><a href="JuryPage.php">Jury</a></li>
@@ -32,7 +32,7 @@
     <br>
 <!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
     <?php 
-        echo "<img id='map_main' class='zoom' height='3004.49985' width='2549.24993' src='map_athens3.png'>"; 
+        echo "<img id='map_main' class='zoom' height='3004.49985' width='2549.24993' src='img/map_athens.png'>"; 
     ?>
     <div id="main">
         <h2>Welcome to our home page</h2>

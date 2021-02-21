@@ -11,14 +11,14 @@
 <body>
 <!------------------------------------------ LOGO -------------------------------------------------------->
     <?php 
-        echo "<a href='HomePage.php'>
-                <img id='logo' src='logo2.png'>
+        echo "<a href='index.php'>
+                <img id='logo' src='img/logo.png'>
               </a>";  
     ?><br>
 <!---------------------------------------- MENU BAR ------------------------------------------------------>
     <div id="menu">
         <ul id="NavBar">
-            <li><a href="HomePage.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="InfoPage.php">About</a></li>
             <li><a href="LocationPage.php">Location</a></li>
             <li><a href="JuryPage.php">Jury</a></li>
@@ -37,15 +37,15 @@
     </tr>
     <tr>
         <td><label for="fname">First name</label></td>
-        <td colspan="3"><input pattern= "^[α-ωΑ-ΩA-Za-zάέίύήόώΆΈΊΎΌΏΉ]+$" placeholder = "Please type in your first name" type="text" id= "fname" name="fname" size="30"></td>
+        <td colspan="3"><input pattern= "^[α-ωΑ-ΩA-Za-zάέίύήόώΆΈΊΎΌΏΉ]+$" placeholder = "Please type in your first name" type="text" id= "fname" name="fname" size="30" required></td>
     </tr>
     <tr>
         <td><label for="lname">Last name</label></td>
-        <td colspan="3"><input placeholder="Please type in your last name" type="text" id="lname" name="lname" size="30"></td>
+        <td colspan="3"><input placeholder="Please type in your last name" type="text" id="lname" name="lname" size="30" required></td>
     </tr>
     <tr>
         <td style="word-wrap: break-word; width=50%"><label for="dob">Date of birth</label></td>
-        <td colspan="2" style='width=100%'><input type="date" id="dob" name="dob"></td>
+        <td colspan="2" style='width=100%'><input type="date" id="dob" name="dob" required></td>
     <tr>
         <td><label>Gender</label></td>
         <td><label for="gender">Female</label>
@@ -311,11 +311,11 @@
         </tr>    
         <tr>
             <td><label for="email">Email</label></td>
-            <td colspan ="2"><input placeholder="E-mail" type="email" name="email" id="email" pattern=".+@.+{.}.+"></td>
+            <td colspan ="2"><input placeholder="E-mail" type="email" name="email" id="email" pattern=".+@.+{.}.+" required></td>
         </tr>
         <tr>
             <td><label for="telephone">Telephone</label></td>
-            <td colspan ="2"><input pattern= "^[0-9]{10}$" placeholder="Telephone" type="text" name="telephone" id="telephone" maxlength ="10"></td>
+            <td colspan ="2"><input pattern= "^[0-9]{10}$" placeholder="Telephone" type="text" name="telephone" id="telephone" maxlength ="10" required></td>
         </tr>
         <tr>
         <td><label for="username">Username</label></td>

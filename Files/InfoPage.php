@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home Page</title>
+    <title>Info Page</title>
     <style>
         <?php 
          include 'Style.css'; 
@@ -11,14 +11,14 @@
 <body>
 <!------------------------------------------ LOGO -------------------------------------------------------->
     <?php 
-        echo "<a href='HomePage.php'>
-                <img id='logo' src='logo2.png'>
+        echo "<a href='index.php'>
+                <img id='logo' src='img/logo.png'>
               </a>";  
     ?><br>
 <!---------------------------------------- MENU BAR ------------------------------------------------------>
     <div id="menu">
         <ul id="NavBar">
-            <li><a href="HomePage.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="InfoPage.php">About</a></li>
             <li><a href="LocationPage.php">Location</a></li>
             <li><a href="JuryPage.php">Jury</a></li>

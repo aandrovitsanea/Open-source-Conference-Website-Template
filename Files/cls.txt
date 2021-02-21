@@ -1,9 +1,0 @@
-fuccia ff44ffff
-cayn 44ffffff
-ornage ff8800ff
-green 44ff44ff
-
-grah 484537ff
-
-w 236.583
-h 172.357
