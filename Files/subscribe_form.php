@@ -39,13 +39,13 @@
         <!-------------------------------------- FIRST NAME ------------------------------------------------->
         <td class="formTitle"><label for="fname">First name</label></td>
         <td colspan="3"><input pattern= "^[α-ωΑ-ΩA-Za-zάέίύήόώΆΈΊΎΌΏΉ]+$" placeholder = "Please type in your first name" type="text" id= "fname" name="fname" size="30" onfocus="de_Error('fnameError')" required>
-        <br><small id="fnameError" class="errorText" hidden>Make sure it is written in Greek or Latin characters</small>
+        <br><small id="fnameError" class="errorText" hidden>Make sure that your are using only Greek or Latin characters</small>
         </td>
     <tr>
         <!-------------------------------------- LAST NAME ------------------------------------------------->
         <td class="formTitle"><label for="lname">Last name</label></td>
         <td colspan="3"><input placeholder="Please type in your last name" type="text" id="lname" name="lname" size="30" onfocus="de_Error('lnameError')" required>
-        <br><small id="lnameError" class="errorText" hidden>Make sure it is written in Greek or Latin characters</small>
+        <br><small id="lnameError" class="errorText" hidden>Make sure that your are using only Greek or Latin characters</small>
         </td>
     </tr>
         <!-------------------------------------- BIRTHDAY ------------------------------------------------->
@@ -319,6 +319,7 @@
                     <option value="Zaire">Zaire</option>
                     <option value="Zambia">Zambia</option>
                     <option value="Zimbabwe">Zimbabwe</option>
+<<<<<<< HEAD
                 </select>
                 <br><small id="countryError" class="errorText" hidden>Please select a country</small>
             </td>
@@ -367,7 +368,7 @@
         </tr>
     </table>
 </form>
-<script type="text/javascript" src="Script.js"></script>  
+<script type="text/javascript" src="check_entries.js"></script>  
 </body>
 </html>
     

@@ -1,5 +1,3 @@
-//document.getElementById("SubButton").onclick = function () {document.getElementById("subscription_form").submit()}
-
 //-------------------------------INPUT VALIDATION-------------------------------------//
 function SubmitForm() {
     //----------------------------------FIRST NAME------------------------------------------------//
