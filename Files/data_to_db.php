@@ -18,6 +18,7 @@ if (!$connection) {
 //ορισμός charset της σύνδεσης ώστε να παρουσιάζονται τα ελληνικά σωστά
 mysqli_set_charset($connection, "utf8");
 
+/*
 // drop table in case of re-running the script
 if (!mysqli_query($connection, "DROP TABLE `conference_db`")){
             echo "Error: " . mysqli_error($connection);
@@ -44,6 +45,12 @@ if (!mysqli_query($connection, "CREATE TABLE `conference_db` (
             echo "Create Error: " . mysqli_error($connection);
 }
 
+// Add primary key
+$primary_key = "ALTER TABLE `conference_db`
+                ADD PRIMARY KEY (`email`);";
+                
+mysqli_query($connection, $primary_key);*/
+
 echo "Query";
 echo "<br><br>";
 //Δημιουργία ερωτήματος
@@ -53,15 +60,56 @@ $sql = "INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country
 
 //$sql = "INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `password`) VALUES ('".$_POST['fname']."', '".$_POST['lname']."', '".$_POST['dob']."', '".$_POST['gender']."', 'Germany', '".$_POST['email']."', '".$_POST['telephone']."', '".$_POST['password']."');";
 
-//εκτέλεση ερωτήματος στη βάση
-$result = mysqli_query($connection, $sql);
-
-//έλεγχος αποτελεσμάτων
-if ($result) {
-    //Εμφάνιση αποτελεσμάτων σε μορφή πίνακα
-    echo "<br>Thank you very much for subscribing to our conference!<br>";
-   };
+/*
    
+$email = "";
+if (isset($_POST['subscribe_form'])) {
+    $email = $_POST['email'];
+    
+    $sql_e = "SELECT * FROM users WHERE email='$email'";
+    $res_e = mysqli_query($connection, $sql_e);
+    
+    if (mysqli_num_rows($res_e) > 0) {
+  	  $name_error = "This email already exists in our database."; 
+  	  }else{
+  	  
+            //εκτέλεση ερωτήματος στη βάση
+            $result = mysqli_query($connection, $sql);
+
+            //έλεγχος αποτελεσμάτων
+            if ($result) {
+                //Εμφάνιση αποτελεσμάτων σε μορφή πίνακα
+                echo "<br>Thank you very much for subscribing to our conference!<br>";
+            };
+                
+            echo "<br><br>";
+            echo "These are your main data";
+            echo "<br><br>";
+
+            echo "<table style='border:1px solid black'>";
+
+            $sql2 = "SELECT `fname`, `lname`, `dob`, `email`, `username` FROM `conference_db` WHERE `username` = '".$_POST['username']."';";
+
+            //εκτέλεση ερωτήματος στη βάση
+            $result2 = mysqli_query($connection, $sql2);
+
+
+            echo "<tr><th>First name</th><th>Last name</th><th>Date of Birth</th><th>Email</th><th>Username</th></tr>";
+                // Εμφάνιση αποτελεσμάτων στις γραμμές του πίνακα
+                while($row = mysqli_fetch_assoc($result2)) {
+                echo "<tr><td>".$row['fname']."</td>".
+                    "<td>".$row['lname']."</td>".
+                    "<td>".$row['dob']."</td>".
+                    "<td>".$row['email']."</td>".
+                    "<td>".$row['username']."</td></tr>";
+                }
+            echo "</table>" ;
+    }
+};*/
+
+echo "<br>Thank you very much for subscribing to our conference!<br>";
+
+    
 echo "<br><br>";
 echo "These are your main data";
 echo "<br><br>";
@@ -73,17 +121,18 @@ $sql2 = "SELECT `fname`, `lname`, `dob`, `email`, `username` FROM `conference_db
 //εκτέλεση ερωτήματος στη βάση
 $result2 = mysqli_query($connection, $sql2);
 
+
 echo "<tr><th>First name</th><th>Last name</th><th>Date of Birth</th><th>Email</th><th>Username</th></tr>";
     // Εμφάνιση αποτελεσμάτων στις γραμμές του πίνακα
     while($row = mysqli_fetch_assoc($result2)) {
     echo "<tr><td>".$row['fname']."</td>".
-         "<td>".$row['lname']."</td>".
-         "<td>".$row['dob']."</td>".
-         "<td>".$row['email']."</td>".
-         "<td>".$row['username']."</td></tr>";
+        "<td>".$row['lname']."</td>".
+        "<td>".$row['dob']."</td>".
+        "<td>".$row['email']."</td>".
+        "<td>".$row['username']."</td></tr>";
     }
 echo "</table>" ;
-
+            
 //κλείσιμο σύνδεσης
 mysqli_close($connection);
 ?>

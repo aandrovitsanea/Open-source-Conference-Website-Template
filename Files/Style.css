@@ -190,16 +190,17 @@ table.center {
 .zoom {
   padding: 50px;
   transition: transform .2s;
-  width: 2000px;
-  height: 200px;
-  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  margin-right: 0;
 }
 
 
 .zoom:hover {
-  -ms-transform: scale(5); /* IE 9 */
-  -webkit-transform: scale(5); /* Safari 3-8 */
-  transform: scale(5); 
+  -ms-transform: scale(3); /* IE 9 */
+  -webkit-transform: scale(3); /* Safari 3-8 */
+  transform: scale(3);   
+  margin-right: 0;
 }
 
 
@@ -236,4 +237,16 @@ td, th {
 
 td.formTitle {
   text-align: right;
+}
+
+.form_error span {
+  width: 80%;
+  height: 35px;
+  margin: 3px 10%;
+  font-size: 1.1em;
+  color: #D83D5A;
+}
+
+.form_error input {
+  border: 1px solid #D83D5A;
 }

@@ -12,7 +12,7 @@
 <!------------------------------------------ LOGO -------------------------------------------------------->
     <?php  
         echo "<a href='index.php'>
-                <img id='logo' src='logo.png'>
+                <img id='logo' src='img/logo.png'>
               </a>"; 
     ?><br>
 <!---------------------------------------- MENU BAR ------------------------------------------------------>
@@ -29,7 +29,7 @@
     <br>
 <!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
     <?php 
-        echo "<img id='map_main' class='zoom' height='3004.49985' width='2549.24993' src='img/map_athens.png'>"; 
+        echo "<img id='map_main' class='zoom' height='100%' width='100%' src='img/map_athens.png'>"; 
     ?>
     <div id="main">
         <h2>Welcome to our home page</h2>
