@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 21, 2021 at 03:27 PM
+-- Generation Time: Feb 21, 2021 at 10:07 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.2.34
 
@@ -45,7 +45,20 @@ CREATE TABLE `conference_db` (
 --
 
 INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `username`, `password`, `consent`) VALUES
-('Thomas', 'Anderson', '1980-02-16', 'Mr', 'Cyprus', 'anderson@mail.com', '2105555555', 'anderson', 'anderson', 'yes');
+('Thomas', 'testtest', '2022-01-06', 'Mrs', 'Armenia', 'anna@mail.com', '2105555555', 'nickcave', 'nickcave', ''),
+('Nick', 'Add', '1994-01-28', 'Mrs', 'Colombia', 'nich@mail.com', '2105555888', 'johnsnow', 'johnsnow', 'yes'),
+('Nick', 'Cave', '1980-01-28', 'Mrs', 'Canada', 'nick@mail.com', '2105555888', 'nickcave', 'nickcave', 'yes'),
+('John', 'Snow', '1992-01-28', 'Mr', 'Estonia', 'snow@mail.com', '2105566555', 'johnsnow', 'johnsnow', 'yes');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `conference_db`
+--
+ALTER TABLE `conference_db`
+  ADD PRIMARY KEY (`email`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
