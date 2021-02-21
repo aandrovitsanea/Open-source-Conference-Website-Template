@@ -33,34 +33,46 @@
 
 <table id="sub_table" >
     <tr>
-        <th colspan="4" id="third" ><b>Registration form</b></th>
+        <th colspan="4" id="third" style="text-align: center;"><b>Registration form</b></th>
     </tr>
     <tr>
-        <td><label for="fname">First name</label></td>
-        <td colspan="3"><input pattern= "^[α-ωΑ-ΩA-Za-zάέίύήόώΆΈΊΎΌΏΉ]+$" placeholder = "Please type in your first name" type="text" id= "fname" name="fname" size="30" required></td>
+        <!-------------------------------------- FIRST NAME ------------------------------------------------->
+        <td class="formTitle"><label for="fname">First name</label></td>
+        <td colspan="3"><input pattern= "^[α-ωΑ-ΩA-Za-zάέίύήόώΆΈΊΎΌΏΉ]+$" placeholder = "Please type in your first name" type="text" id= "fname" name="fname" size="30" onfocus="de_Error('fnameError')" required>
+        <br><small id="fnameError" class="errorText" hidden>Make sure it is written in Greek or Latin characters</small>
+        </td>
+    <tr>
+        <!-------------------------------------- LAST NAME ------------------------------------------------->
+        <td class="formTitle"><label for="lname">Last name</label></td>
+        <td colspan="3"><input placeholder="Please type in your last name" type="text" id="lname" name="lname" size="30" onfocus="de_Error('lnameError')" required>
+        <br><small id="lnameError" class="errorText" hidden>Make sure it is written in Greek or Latin characters</small>
+        </td>
     </tr>
+        <!-------------------------------------- BIRTHDAY ------------------------------------------------->
     <tr>
-        <td><label for="lname">Last name</label></td>
-        <td colspan="3"><input placeholder="Please type in your last name" type="text" id="lname" name="lname" size="30" required></td>
-    </tr>
+        <td style="word-wrap: break-word; width=50%" class="formTitle"><label for="dob">Date of birth</label></td>
+        <td colspan="2" style='width=100%'><input type="date" id="dob" name="dob" onfocus="de_Error('dobError')" required>
+        <br><small id="dobError" class="errorText" hidden>Please enter your date of birth</small>
+        </td>
+        <!-------------------------------------- GENDER ------------------------------------------------->
     <tr>
-        <td style="word-wrap: break-word; width=50%"><label for="dob">Date of birth</label></td>
-        <td colspan="2" style='width=100%'><input type="date" id="dob" name="dob" required></td>
-    <tr>
-        <td><label>Gender</label></td>
+        <td class="formTitle"><label>Gender</label></td>
         <td><label for="gender">Female</label>
-            <input type="radio" id="Mrs" name="gender" value="Mrs"></td>
-        <td><label for="gender">Non-binary</label> 
-            <input type="radio" id="non_bin" name="gender" value="non_bin"></td>
-        <td><label for="gender">Male</label> 
-            <input type="radio" id="Mr" name="gender" value="Mr"></td>
+            <input type="radio" id="Mrs" name="gender" value="Mrs" onfocus="de_Error('genderError')">&nbsp;
+        <label for="gender">Non-binary</label> 
+            <input type="radio" id="non_bin" name="gender" value="non_bin" onfocus="de_Error('genderError')">&nbsp;
+        <label for="gender">Male</label> 
+            <input type="radio" id="Mr" name="gender" value="Mr" onfocus="de_Error('genderError')">
+            <br><small id="genderError" class="errorText" hidden>Please enter your gender</small>
+        </td>
     </tr>
-        
+        <!-------------------------------------- COUNTRY ------------------------------------------------->
     <tr>
-        <td><label for="country">Country</label></td>
+        <td class="formTitle"><label for="country">Country</label></td>
         <td colspan="2">
                     <!--<input type="dropdown" id="country" name="country" value="country">-->
-                    <select id="country" name="country">
+                    <select id="country" name="country" onfocus="de_Error('countryError')">
+                    <option value="choose" selected>Choose your country</option>
                     <option value="Afganistan">Afghanistan</option>
                     <option value="Albania">Albania</option>
                     <option value="Algeria">Algeria</option>
@@ -146,7 +158,7 @@
                     <option value="Ghana">Ghana</option>
                     <option value="Gibraltar">Gibraltar</option>
                     <option value="Great Britain">Great Britain</option>
-                    <option value="Greece" selected>Greece</option>
+                    <option value="Greece">Greece</option>
                     <option value="Greenland">Greenland</option>
                     <option value="Grenada">Grenada</option>
                     <option value="Guadeloupe">Guadeloupe</option>
@@ -307,40 +319,54 @@
                     <option value="Zaire">Zaire</option>
                     <option value="Zambia">Zambia</option>
                     <option value="Zimbabwe">Zimbabwe</option>
-                </select></td>
-        </tr>    
-        <tr>
-            <td><label for="email">Email</label></td>
-            <td colspan ="2"><input placeholder="E-mail" type="email" name="email" id="email" pattern=".+@.+{.}.+" required></td>
+                </select>
+                <br><small id="countryError" class="errorText" hidden>Please select a country</small>
+            </td>
+            </tr>    
+        <!-------------------------------------- E-MAIL ------------------------------------------------->
+            <tr>
+            <td class="formTitle"><label for="email">Email</label></td>
+            <td colspan ="2"><input placeholder="E-mail" type="email" name="email" id="email" pattern=".+@.+{.}.+" onfocus="de_Error('emailError')" required>
+            <br><small id="emailError" class="errorText" hidden>Please enter a valid E-mail</small></td>
         </tr>
+        <!------------------------------------- TELEPHONE ------------------------------------------------>
         <tr>
-            <td><label for="telephone">Telephone</label></td>
-            <td colspan ="2"><input pattern= "^[0-9]{10}$" placeholder="Telephone" type="text" name="telephone" id="telephone" maxlength ="10" required></td>
+            <td class="formTitle"><label for="telephone">Telephone</label></td>
+            <td colspan ="2"><input pattern= "^[0-9]{10}$" placeholder="Telephone" type="text" name="telephone" id="telephone" maxlength ="10" onfocus="de_Error('phoneError')" required>
+            <br><small id="phoneError" class="errorText" hidden>Please enter your telephone</small>
+        </td>
         </tr>
+        <!------------------------------------- USERNAME ------------------------------------------------>
         <tr>
-        <td><label for="username">Username</label></td>
-        <td colspan="2"><input pattern= "^[a-z]{6-8}$" placeholder="Username (6 - 8 characters)" type="text" id="username" name="username" minlength = "6" maxlength ="8" required></td>
+        <td class="formTitle"><label for="username">Username</label></td>
+        <td colspan="2"><input pattern= "^[a-z]{6-8}$" placeholder="Username (6 - 8 characters)" type="text" id="username" name="username" minlength = "6" maxlength ="8" onfocus="de_Error('usernameError')" required>
+        <br><small id="usernameError" class="errorText" hidden>Please enter your telephone</small></td>
     </tr>
+        <!------------------------------------- PASSWORD ------------------------------------------------>
         <tr>
-            <td><label for="password">Password</label></td>
-            <td colspan ="2"><input pattern= "^[a-z]{6-8}$" placeholder="Password (6 - 8 characters)" type="password" name="password" id="password" minlength = "6" maxlength ="8" required></td>
+            <td class="formTitle"><label for="password">Password</label></td>
+            <td colspan ="2"><input pattern= "^[a-z]{6-8}$" placeholder="Password (6 - 8 characters)" type="password" name="password" id="password" minlength = "6" maxlength ="8" onfocus="de_Error('passwordError')" required>
+            <br><small id="passwordError" class="errorText" hidden>Please enter a valid password</small>
+        </td>
         </tr>
+        <!--------------------------------- CONFIRM PASSWORD -------------------------------------------->
         <tr>
-            <td><label for="conf_password">Confirm Password</label></td>
-            <td colspan ="2"><input pattern= "^[a-z]{6-8}$" type="password" name="conf_password" id="conf_password" minlength = "6" maxlength ="8" required></td>
+            <td class="formTitle"><label for="conf_password">Confirm Password</label></td>
+            <td colspan ="2"><input pattern= "^[a-z]{6-8}$" type="password" name="conf_password" id="conf_password" minlength = "6" maxlength ="8" required onfocus="de_Error('passwordError')">
+            <br><small id="conf_passwordError" class="errorText" hidden>Please enter a valid password</small></td>
         </tr>
         <tr>
             <td></td>
-            <td colspan="3"><input class="square-radio" type="checkbox" name="consent" value="yes" required><label for="consent">I agree with the <a href='terms_of_use.php'>terms</a> of use for this site.</label></td>
+            <td colspan="3"><input class="square-radio" type="checkbox" id="terms" name="consent" value="yes" required><label for="consent">I agree with the <a href='terms_of_use.php'>terms</a> of use for this site.</label></td>
         </tr>
         <tr>
             <td></td>
-            <td><input class="button" type="submit" value="Submit"></td>
+            <td><input class="button" type="button" value="Submit" id="SubButton" onclick="SubmitForm()"></td>
             <td><input class="button" type="reset" value="Cancel"></td>
         </tr>
     </table>
-</form>  
-
+</form>
+<script type="text/javascript" src="Script.js"></script>  
 </body>
 </html>
     
