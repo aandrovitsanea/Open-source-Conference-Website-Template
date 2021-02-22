@@ -14,7 +14,8 @@
        include 'logo_navbar.php';
     ?><br>
 <!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
-    
+<div id="main">
+
 <form id="subscription_form" method="post" action ="data_to_db.php">
 
 <table id="sub_table">
@@ -328,7 +329,7 @@
         <tr>
         <td class="formTitle"><label for="username">Username</label></td>
         <td colspan="2"><input pattern= "^[a-z]{6-8}$" placeholder="Username (6 - 8 characters)" type="text" id="username" name="username" minlength = "6" maxlength ="8" onfocus="de_Error('usernameError')" required>
-        <br><small id="usernameError" class="errorText" hidden>Please enter your telephone</small></td>
+        <br><small id="usernameError" class="errorText" hidden>Please enter your username</small></td>
     </tr>
         <!------------------------------------- PASSWORD ------------------------------------------------>
         <tr>
@@ -354,6 +355,7 @@
         </tr>
     </table>
 </form>
+</div>
 <script type="text/javascript" src="check_entries.js"></script>  
 </body>
 </html>

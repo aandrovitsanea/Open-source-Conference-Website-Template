@@ -1,3 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration form</title>
+    <style>
+        <?php 
+         include 'Style.css'; 
+        ?>
+    </style>
+</head>
+<body>
+<!------------------------------------------ LOGO and MENY BAR -------------------------------------------------------->
+    <?php 
+       include 'logo_navbar.php';
+    ?><br>
+<!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
+<div id="main">
+
 <?php
 
 //echo "<br>Contact details<br>";
@@ -5,10 +23,10 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "personal";
-
+/*
 echo "<br>Establishing connection<br>";
 echo "<br>=======================<br>";
-echo "<br>";
+echo "<br>";*/
 // Δημιουργία σύνδεσης
 $connection = mysqli_connect($servername, $username, $password, $dbname);
 
@@ -23,12 +41,10 @@ mysqli_set_charset($connection, "utf8");
 /*
 // drop table in case of re-running the script
 if (!mysqli_query($connection, "DROP TABLE `conference_db`")){
-            echo "Error: " . mysqli_error($connection);
+            die("Could not drop table: " . mysqli_error($connection));
 }
 
-echo "<br><br>";
-echo "Create new table";
-echo "<br><br>";
+
 // // create table in case of re-running the script
 // // in order to avoid inserting the same data many times
 // 
@@ -38,33 +54,46 @@ if (!mysqli_query($connection, "CREATE TABLE `conference_db` (
                     `dob` DATE NOT NULL,
                     `gender` varchar(20) NOT NULL,
                     `country` varchar(100) NOT NULL,
-                    `email` varchar(100) NOT NULL,
+                    `email` varchar(100) NOT NULL PRIMARY KEY,
                     `telephone` varchar(10) NOT NULL,
                     `username` varchar(8) NOT NULL,
-                    `password` varchar(8) NOT NULL,
+                    `password` varchar(60) NOT NULL,
                     `consent` varchar(3)
                     ) ENGINE=InnoDB DEFAULT CHARSET=utf8")){
-            echo "Create Error: " . mysqli_error($connection);
+            die("Could not create table: " . mysqli_error($connection));
 }
 
-// Add primary key
-$primary_key = "ALTER TABLE `conference_db`
-                ADD PRIMARY KEY (`email`);";
+
+// Create index on email
+$index = "CREATE INDEX index_email ON `conference_db` (email(100));;";
                 
-mysqli_query($connection, $primary_key);*/
+if (!mysqli_query($connection, $index)) {
+    die('Could not create index');
+}*/
 
 
 // Check if the email exists already in the database
 
 $check_email = mysqli_query($connection, "SELECT COUNT(1) FROM `conference_db` WHERE `email` = '".$_POST['email']."';");
 
+if(!$check_email) {
+    die('Could not get email');
+}
+
 $row = mysqli_fetch_assoc($check_email);
+if($row == Null) {
+    die('mysqli_fetch_assoc error');
+
+}
 
 if($row["COUNT(1)"] == 1){
-        echo "You have already and account under this email!";
+        echo "<h4 style= 'color:red;';>You have already and account under this email!</h4>";
 }else{
-    //$sql = "SELECT * FROM `conference_db`;";
-    $sql = "INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `username`, `password`,`consent`) VALUES ('".$_POST['fname']."', '".$_POST['lname']."', '".$_POST['dob']."', '".$_POST['gender']."', '".$_POST['country']."', '".$_POST['email']."', '".$_POST['telephone']."', '".$_POST['username']."','".$_POST['password']."','".$_POST['consent']."');";
+    // use password_hash function to create a hash for the password the user provided
+    $pass = password_hash($_POST['password'], PASSWORD_DEFAULT, []);
+    
+    // create query to upload the submitted data to the database
+    $sql = "INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `username`, `password`,`consent`) VALUES ('".$_POST['fname']."', '".$_POST['lname']."', '".$_POST['dob']."', '".$_POST['gender']."', '".$_POST['country']."', '".$_POST['email']."', '".$_POST['telephone']."', '".$_POST['username']."','".$pass."','".$_POST['consent']."');";
 
     //εκτέλεση ερωτήματος στη βάση
     $result = mysqli_query($connection, $sql);
@@ -72,11 +101,11 @@ if($row["COUNT(1)"] == 1){
     //έλεγχος αποτελεσμάτων
     if ($result) {
         //Εμφάνιση αποτελεσμάτων σε μορφή πίνακα
-        echo "<br>Thank you very much for subscribing to our conference!<br>";
+        echo "<br><h4 style= 'color:magenta;';>Thank you very much for subscribing to our conference!</h4><br>";
     };
     
     echo "<br><br>";
-    echo "These are your main data";
+    echo "<p style='text-align: center;'>These are your key data</p>";
     echo "<br><br>";
 
     echo "<table style='border:1px solid black; border-collapse: collapse; width:70%'>";
@@ -92,13 +121,19 @@ if($row["COUNT(1)"] == 1){
         echo "<tr><td>".$row['fname']."</td>".
             "<td>".$row['lname']."</td>".
             "<td>".$row['dob']."</td>".
-            "<td>".$row['email']."</td>".
-            "<td>".$row['username']."</td></tr>";
+            "<td>".$row['email']."</td>".            
+            "<td>".$row['username']."</td>";
         };
     echo "</table>" ;
+    
+    echo "<br><br><br><br>";
 
 };
 
 //κλείσιμο σύνδεσης
 mysqli_close($connection);
 ?>
+
+</div> 
+</body>
+</html>
