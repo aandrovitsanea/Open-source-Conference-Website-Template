@@ -1,3 +1,15 @@
+<?php
+
+session_start(); // start session
+
+if(!isset($_SESSION["email"])) // if no email is stored 
+{
+ header("location:login.php"); // redirect to login page
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,7 +42,10 @@
     <br>
     
     <div id="main">
-        <h2>The program of the conference</h2>   
+    
+        <!--<h3>The program of the conference</h3>-->  
+      
+        <p style = 'text-align: center;'><a href="logout.php">Logout</a></p>
             <table  class = "center">
 <tr >
     <th>Day</th>

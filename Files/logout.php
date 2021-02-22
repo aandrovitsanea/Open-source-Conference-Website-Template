@@ -1,7 +1,21 @@
 <?php
+session_start();
+?>
 
-setcookie("type", "", time()-3600);
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+// remove all session variables
+session_unset();
+
+// destroy the session
+session_destroy();
 
 header("location:login.php");
 
 ?>
+
+</body>
+</html>
