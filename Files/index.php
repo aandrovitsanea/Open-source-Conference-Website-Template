@@ -38,7 +38,7 @@
         
         <footer>
             <p style = "font-size: 12px">Disclaimer: This site has been created in the framework of the final assignment of the undergraduate course "Web Technologies" of the Department of Informatics of the University of Pireaus. All names, titles of papers/presentation and photos are fictional, created with the tools <a href="https://www.name-generator.org.uk/">Name Generator</a>, <a href="https://www.rewordmyessay.com/essay-titles-generator/">Reword My Essay</a> and <a href="https://thispersondoesnotexist.com/">This Person Does Not Exist</a>.</p>
-            <p style = "font-size: 12px">Read <a href="terms_of_use.php">here</a> our terms of use.</p>
+            <p style = "font-size: 12px">Read our <a href="terms_of_use.php">terms of use</a>.</p>
         </footer>
     </div>
         

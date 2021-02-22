@@ -345,7 +345,7 @@
         </tr>
         <tr>
             <td></td>
-            <td colspan="3"><input class="square-radio" type="checkbox" id="terms" name="consent" value="yes" required><label for="consent">I agree with the <a href='terms_of_use.php'>terms</a> of use for this site.</label></td>
+            <td colspan="3"><input class="square-radio" type="checkbox" id="terms" name="consent" value="yes" required><label for="consent"><a href='terms_of_use.php'>I agree with the terms of use for this site</a></label></td>
         </tr>
         <tr>
             <td></td>
