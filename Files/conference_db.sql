@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 21, 2021 at 10:07 PM
+-- Generation Time: Feb 23, 2021 at 12:46 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.2.34
 
@@ -36,19 +36,21 @@ CREATE TABLE `conference_db` (
   `email` varchar(100) NOT NULL,
   `telephone` varchar(10) NOT NULL,
   `username` varchar(8) NOT NULL,
-  `password` varchar(8) NOT NULL,
+  `password` varchar(60) NOT NULL,
   `consent` varchar(3) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `conference_db`
+-- Dumping dummy data for table `conference_db`
 --
 
 INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `username`, `password`, `consent`) VALUES
-('Thomas', 'testtest', '2022-01-06', 'Mrs', 'Armenia', 'anna@mail.com', '2105555555', 'nickcave', 'nickcave', ''),
-('Nick', 'Add', '1994-01-28', 'Mrs', 'Colombia', 'nich@mail.com', '2105555888', 'johnsnow', 'johnsnow', 'yes'),
-('Nick', 'Cave', '1980-01-28', 'Mrs', 'Canada', 'nick@mail.com', '2105555888', 'nickcave', 'nickcave', 'yes'),
-('John', 'Snow', '1992-01-28', 'Mr', 'Estonia', 'snow@mail.com', '2105566555', 'johnsnow', 'johnsnow', 'yes');
+('Angelos', 'Egg', '2021-02-10', 'Mrs', 'Albania', 'adad@mail.com', '2105555555', 'angelos', '$2y$10$vyL2Exm88X7kc3llk3FXIO8iD.y1l540NUZmR/ZNuW0V2Q.UpG..u', 'yes'),
+('Angelos', 'Egg', '2021-02-10', 'Mrs', 'Albania', 'anna@mail.com', '2105555555', 'angelos', '$2y$10$y.lOcrdQYfWSBt8feZHQEe8BuRuv4hfiVUxUKGyvf4.BIX5aNFFSC', 'yes'),
+('Angelos', 'Egg', '2021-02-10', 'Mrs', 'Albania', 'bb@mail.com', '2105555555', 'angelos', '$2y$10$8Cn7gKryq/tdT6kM0h7SluHtxTyrzBUoBRFtc5hWSeuuqAB35tNlK', 'yes'),
+('Angelos', 'Egg', '2021-02-10', 'Mrs', 'Albania', 'ddd@mail.com', '2105555555', 'angelos', '$2y$10$A7NkhxwJ7mP0PwNegyGqgunPB0VvZ4rd5NyuM.1//Iaruo4VU.OGm', 'yes'),
+('Angelos', 'Egg', '2021-02-10', 'Mrs', 'Albania', 'ssb@mail.com', '2105555555', 'angelos', '$2y$10$Gjahswk2ngHAo1fpnr.9yud02zz61jmoWdr.N396dvLs5bCz5Mb4y', 'yes'),
+('Angelos', 'Egg', '2021-02-10', 'Mrs', 'Albania', 'sss@mail.com', '2105555555', 'angelos', '$2y$10$o4syy69nb0ULEhT5Nqu4Xu8mPP5l1T7I7Q0g1BmEo26PZ5wV/lv/K', 'yes');
 
 --
 -- Indexes for dumped tables
@@ -58,7 +60,8 @@ INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `emai
 -- Indexes for table `conference_db`
 --
 ALTER TABLE `conference_db`
-  ADD PRIMARY KEY (`email`);
+  ADD PRIMARY KEY (`email`),
+  ADD KEY `index_email` (`email`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
