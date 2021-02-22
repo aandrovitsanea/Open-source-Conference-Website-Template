@@ -54,8 +54,7 @@ form {
 
 table {
   border-spacing: 20px;
-  width:100%;
-  align:"center";
+  text-align:"center";
   margin-left:auto;
   margin-right:auto;
 }
@@ -64,10 +63,14 @@ ul {
 	display: inline-block; 
 	text-align: left; 
 	}
+	
+ol { 
+	display: inline-block; 
+	text-align: left; 
+	}
 
 #sub_table {
-  border-spacing: 20px;
-  
+  border-spacing: 20px;  
   text-align:"left";
   margin-left:auto;
   margin-right:auto;
@@ -221,7 +224,6 @@ table.center {
     font-family: Futura, sans-serif;
 }
 
-<<<<<<< HEAD
 .errorText {
   color: red
 }
@@ -238,7 +240,7 @@ td, th {
 
 td.formTitle {
   text-align: right;
-=======
+  
 .form_error span {
   width: 80%;
   height: 35px;
@@ -248,7 +250,6 @@ td.formTitle {
 }
 .form_error input {
   border: 1px solid #D83D5A;
->>>>>>> trial control unique email
 }
 
 .form_error span {
