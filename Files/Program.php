@@ -47,6 +47,20 @@ if(!isset($_SESSION["email"])) // if no email is stored
       
         <p style = 'text-align: center;'><a href="logout.php">Logout</a></p>
             <table  class = "center">
+     <?php    
+        include("database_connection.php"); // import database connection
+        
+        $user_data  = mysqli_query($connection, "SELECT `gender`, `fname` , `lname` FROM `conference_db` WHERE `email` = '".$_SESSION["email"]."';");
+        $row = mysqli_fetch_assoc($user_data);
+        if ($row['gender']!= 'non_bin'){        
+            echo "<h4 style='color:blue'>Hello, ".$row['gender']." ".$row['lname']."!</h4>";
+        }else{
+            echo "<h4 style='color:blue'>Hello ".$row['fname']."!</h4>"; 
+        }
+        echo "<h4 style='color:#800080'>Welcome to the program of the sceduled talks.</h4>";
+     ?>
+     
+<table class = "center"> 
 <tr >
     <th>Day</th>
     <th>Time</th>

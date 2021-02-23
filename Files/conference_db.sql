@@ -58,6 +58,7 @@ INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `emai
 
 --
 -- Indexes for table `conference_db`
+-- Enable quicker queries
 --
 ALTER TABLE `conference_db`
   ADD PRIMARY KEY (`email`),
