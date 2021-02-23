@@ -56,7 +56,7 @@ if(!isset($_SESSION["email"])) // if no email is stored
         }else{
             echo "<h4 style='color:blue'>Hello ".$row['fname']."!</h4>"; 
         }
-        echo "<h4 style='color:#800080'>Welcome to the program of the sceduled talks.</h4>";
+        echo "<h4 style='color:#800080'>Welcome to the program of the scheduled talks.</h4>";
      ?>
         <form method="get" action="logout.php">
             <button type="submit">Logout</button>
