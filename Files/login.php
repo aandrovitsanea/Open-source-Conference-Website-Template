@@ -34,14 +34,6 @@
             <td><input type="submit" name="login" id="login" value="Login"></td>
             <td></td>
     </tr>
-<!--    <tr>
-            <td>Admin username</td>
-            <td colspan = "2">administ</td>
-    </tr>
-    <tr>
-            <td>Admin password</td>
-            <td colspan = "2">administ</td>
-    </tr>-->
     </table>
 </form>
   </div>

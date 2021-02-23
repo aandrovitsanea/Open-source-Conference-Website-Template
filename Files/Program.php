@@ -45,8 +45,7 @@ if(!isset($_SESSION["email"])) // if no email is stored
     
         <!--<h3>The program of the conference</h3>-->  
       
-        <p style = 'text-align: center;'><a href="logout.php">Logout</a></p>
-            <table  class = "center">
+
      <?php    
         include("database_connection.php"); // import database connection
         
@@ -59,6 +58,11 @@ if(!isset($_SESSION["email"])) // if no email is stored
         }
         echo "<h4 style='color:#800080'>Welcome to the program of the sceduled talks.</h4>";
      ?>
+        <form method="get" action="logout.php">
+            <button type="submit">Logout</button>
+        </form>
+<!--
+        <p style = 'text-align: right;'><a href="logout.php">Logout</a></p>   -->  
      
 <table class = "center"> 
 <tr >
