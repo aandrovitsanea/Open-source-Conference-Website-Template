@@ -74,6 +74,8 @@ ol {
   text-align:"left";
   margin-left:auto;
   margin-right:auto;
+  font-family: Futura, sans-serif;
+  width: 100%;  
 }
 
 
@@ -186,7 +188,7 @@ ol {
 /*--------------------------------HOME PAGE------------------------------------*/
 
 table.center {
-  margin-left: auto; 
+  margin-left: -20px; 
   margin-right: auto;
 }
 
@@ -228,10 +230,6 @@ table.center {
   color: red
 }
 
-table#sub_table {
-  font-family: arial, sans-serif;
-  width: 100%;
-}
 
 td, th {
   text-align: left;

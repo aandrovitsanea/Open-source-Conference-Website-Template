@@ -39,8 +39,6 @@ if(!isset($_SESSION["email"])) // if no email is stored
             <li><a href="subscribe_form.php">Subscribe</a></li>
         </ul>
     </div>
-    <br>
-    
     <div id="main">
     
         <!--<h3>The program of the conference</h3>-->  
@@ -131,7 +129,6 @@ if(!isset($_SESSION["email"])) // if no email is stored
     <td>The role of web technologies in modern economy</td>
 </tr>
 
-<br><br><br><br>
 
 <tr>
     <td>Saturday, 09 - 10 - 2021</td>
@@ -191,7 +188,6 @@ if(!isset($_SESSION["email"])) // if no email is stored
     <td>Web technologies: the truth and reality</td>
 </tr>
 
-<br><br>
 <tr>
     <td>Sunday, 10 - 10 - 2021</td>
     <td>9.00 am</td>

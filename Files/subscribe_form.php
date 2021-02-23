@@ -13,7 +13,7 @@
     <?php 
        include 'logo_navbar.php';
     ?><br>
-<!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
+    
 <div id="main">
 
 <form id="subscription_form" method="post" action ="data_to_db.php">

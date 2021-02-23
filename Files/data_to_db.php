@@ -18,25 +18,7 @@
 
 <?php
 
-//echo "<br>Contact details<br>";
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "personal";
-/*
-echo "<br>Establishing connection<br>";
-echo "<br>=======================<br>";
-echo "<br>";*/
-// Δημιουργία σύνδεσης
-$connection = mysqli_connect($servername, $username, $password, $dbname);
-
-// Έλεγχος σύνδεσης
-if (!$connection) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
-//ορισμός charset της σύνδεσης ώστε να παρουσιάζονται τα ελληνικά σωστά
-mysqli_set_charset($connection, "utf8");
+include("database_connection.php"); // import database connection
 
 /*
 // drop table in case of re-running the script
