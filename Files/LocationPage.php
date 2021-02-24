@@ -57,8 +57,8 @@
         <p>
             There is a great variety of hotel in the city of Athens. For options 1 - 6 you can get a discount, upon mentioning of our conference. <br> <b>Hurry up and book upfront!</b>
         </p>
-        
-        <ol>            
+        <strong style="float:left;color:purple;">Hotels:</strong>
+        <ul id="hotelList">            
             <li><a href="http://lycabettus.athenshotels.it" class="external">St. George Lycabettus Boutique Hotel</a></li>
             <li><a href="http://newhotel.athenshotels.it" class="external">New Hotel</a></li>
             <li><a href="http://royalolympichotel.athenshotels.it" class="external">Royal Olympic Hotel</a></li>
@@ -66,9 +66,9 @@
             <li><a href="http://semiramis.athenshotels.it" class="external">Semiramis Hotel</a></li>
             <li><a href="http://divanicaravel.athenshotels.it" class="external">Divani Caravel</a></li>
             <li><a href="?param[lang]=en&amp;param[idmarea]=1&amp;param[loc_country]=GRC&amp;param[loc]=HIATH&amp;param[idhtl]=1875127&amp;action=form_hotel_description">Sofitel Athens Airport</a></li>
-            <li><a href="http://classicalkinggeorge.athenshotels.it" class="external">King George, a Luxury Collection Hotel, Athens</a></li>
+            <li><a href="http://classicalkinggeorge.athenshotels.it" class="external">King George, a Luxury Collection Hotel</a></li>
             <li><a href="http://crowneplaza.athenshotels.it" class="external">Crowne Plaza Athens City Centre</a></li>
-            <li><a href="?param[lang]=en&amp;param[idmarea]=1&amp;param[loc_country]=GRC&amp;param[loc]=HIATH&amp;param[idhtl]=1919048&amp;action=form_hotel_description">Hotel Grande Bretagne, a Luxury Collection Hotel, Athens</a></li>
+            <li><a href="?param[lang]=en&amp;param[idmarea]=1&amp;param[loc_country]=GRC&amp;param[loc]=HIATH&amp;param[idhtl]=1919048&amp;action=form_hotel_description">Hotel Grande Bretagne, a Luxury Collection Hotel</a></li>
             <li><a href="?param[lang]=en&amp;param[idmarea]=1&amp;param[loc_country]=GRC&amp;param[loc]=HIATH&amp;param[idhtl]=124988&amp;action=form_hotel_description">Athens Marriott Hotel</a></li>
             <li><a href="?param[lang]=en&amp;param[idmarea]=1&amp;param[loc_country]=GRC&amp;param[loc]=HIATH&amp;param[idhtl]=2048523&amp;action=form_hotel_description">Electra Metropolis Athens</a></li>
             <li><a href="?param[lang]=en&amp;param[idmarea]=1&amp;param[loc_country]=GRC&amp;param[loc]=HIATH&amp;param[idhtl]=124254&amp;action=form_hotel_description">Hilton Athens</a></li>
@@ -86,7 +86,7 @@
             <li><a href="?param[lang]=en&amp;param[idmarea]=1&amp;param[loc_country]=GRC&amp;param[loc]=HIATH&amp;param[idhtl]=1952673&amp;action=form_hotel_description">The Pinnacle Athens</a></li>
             <li><a href="?param[lang]=en&amp;param[idmarea]=1&amp;param[loc_country]=GRC&amp;param[loc]=HIATH&amp;param[idhtl]=1951467&amp;action=form_hotel_description">Theoxenia Palace Hotel</a></li>
             <br class="clear">
-        </ol> 
+        </ul> 
         
         <h2 id="guide">City guide</h2>
         <p>

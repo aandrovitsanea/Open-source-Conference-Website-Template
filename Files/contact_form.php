@@ -19,7 +19,7 @@
     
     <table id="sub_table">
         <tr>
-        <th colspan="2" id="third" style="text-align: center;"><b>Contact form</b></th>
+        <th colspan="2" id="third"><h3>Contact form</h3></th>
     </tr>
     <tr>
         <!-------------------------------------- FIRST NAME ------------------------------------------------->
@@ -48,9 +48,9 @@
     <tr> 
     <td></td>
     <td>
-    <input type="submit" value="Send">
+    <input type="submit" value="Send" id="GreenButton">
     
-    <input type="reset" value="Clear">
+    <input type="reset" value="Clear" id="RedButton">
     </td>
     </tr>      
     </form>

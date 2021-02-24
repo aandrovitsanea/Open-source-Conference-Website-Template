@@ -20,7 +20,7 @@
 
 <table id="sub_table">
     <tr>
-        <th colspan="4" id="third" style="text-align: center;"><b>Registration form</b></th>
+        <th colspan="4"><h3>Registration form</h3></th>
     </tr>
     <tr>
         <!-------------------------------------- FIRST NAME ------------------------------------------------->
@@ -348,14 +348,12 @@
             <td></td>
             <td colspan="3"><input class="square-radio" type="checkbox" id="terms" name="consent" value="yes" required><label for="consent"><a href='terms_of_use.php'>I agree with the terms of use for this site</a></label></td>
         </tr>
-        <tr>
-            <td></td>
-            <td><input class="button" type="button" value="Submit" id="SubButton" onclick="SubmitForm()"></td>
-            <td><input class="button" type="reset" value="Cancel"></td>
-        </tr>
     </table>
+    <input class="button" type="button" value="Submit" id="GreenButton" onclick="SubmitForm()"><br><br><br>
+    <input class="button" type="reset" value="Cancel" id="RedButton"><br><br>
 </form>
 </div>
+<br><br>
 <script type="text/javascript" src="check_entries.js"></script>  
 </body>
 </html>

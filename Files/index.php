@@ -14,7 +14,7 @@
     ?><br>
 <!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
     <?php 
-        echo "<img id='map_main' class='zoom' height='100%' width='100%' src='img/map_athens.png'>"; 
+        echo "<img id='map_main' class='zoomImage' height='100%' width='100%' src='img/map_athens.png'>"; 
     ?>
     <div id="main">
         <h2>Welcome to our home page</h2>

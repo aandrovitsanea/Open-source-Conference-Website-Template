@@ -8,7 +8,8 @@
         ?>
     </style>
 </head>
-<body><!------------------------------------------ LOGO and MENY BAR -------------------------------------------------------->
+<body>
+<!------------------------------------------ LOGO and MENY BAR -------------------------------------------------------->
     <?php 
        include 'logo_navbar.php';
     ?><br>
@@ -31,7 +32,7 @@
     </tr>
     <tr>
             <td></td>
-            <td><input type="submit" name="login" id="login" value="Login"></td>
+            <td><input type="submit" name="login" id="GreenButton" value="Login"></td>
             <td></td>
     </tr>
     </table>
