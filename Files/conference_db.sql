@@ -46,11 +46,11 @@ CREATE TABLE `registration` (
 
 INSERT INTO `registration` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `username`, `password`, `consent`) VALUES
 ('Angelos', 'Egg', '2021-02-10', 'Mrs', 'Albania', 'adad@mail.com', '2105555555', 'angelos', '$2y$10$vyL2Exm88X7kc3llk3FXIO8iD.y1l540NUZmR/ZNuW0V2Q.UpG..u', 'yes'),
-('Angelos', 'Egg', '2021-02-10', 'Mrs', 'Albania', 'anna@mail.com', '2105555555', 'angelos', '$2y$10$y.lOcrdQYfWSBt8feZHQEe8BuRuv4hfiVUxUKGyvf4.BIX5aNFFSC', 'yes'),
-('Angelos', 'Egg', '2021-02-10', 'Mrs', 'Albania', 'bb@mail.com', '2105555555', 'angelos', '$2y$10$8Cn7gKryq/tdT6kM0h7SluHtxTyrzBUoBRFtc5hWSeuuqAB35tNlK', 'yes'),
-('Angelos', 'Egg', '2021-02-10', 'Mrs', 'Albania', 'ddd@mail.com', '2105555555', 'angelos', '$2y$10$A7NkhxwJ7mP0PwNegyGqgunPB0VvZ4rd5NyuM.1//Iaruo4VU.OGm', 'yes'),
-('Angelos', 'Egg', '2021-02-10', 'Mrs', 'Albania', 'ssb@mail.com', '2105555555', 'angelos', '$2y$10$Gjahswk2ngHAo1fpnr.9yud02zz61jmoWdr.N396dvLs5bCz5Mb4y', 'yes'),
-('Angelos', 'Egg', '2021-02-10', 'Mrs', 'Albania', 'sss@mail.com', '2105555555', 'angelos', '$2y$10$o4syy69nb0ULEhT5Nqu4Xu8mPP5l1T7I7Q0g1BmEo26PZ5wV/lv/K', 'yes');
+('Sophie', 'Egg', '2011-02-10', 'Mrs', 'Albania', 'anna@mail.com', '2105555555', 'angelos', '$2y$10$y.lOcrdQYfWSBt8feZHQEe8BuRuv4hfiVUxUKGyvf4.BIX5aNFFSC', 'yes'),
+('Niki', 'Egg', '2000-02-10', 'Mrs', 'Albania', 'bb@mail.com', '2105555555', 'angelos', '$2y$10$8Cn7gKryq/tdT6kM0h7SluHtxTyrzBUoBRFtc5hWSeuuqAB35tNlK', 'yes'),
+('Lucas', 'Egg', '1990-02-10', 'Mrs', 'Albania', 'ddd@mail.com', '2105555555', 'angelos', '$2y$10$A7NkhxwJ7mP0PwNegyGqgunPB0VvZ4rd5NyuM.1//Iaruo4VU.OGm', 'yes'),
+('Antonis', 'Egg', '1980-02-10', 'Mrs', 'Albania', 'ssb@mail.com', '2105555555', 'angelos', '$2y$10$Gjahswk2ngHAo1fpnr.9yud02zz61jmoWdr.N396dvLs5bCz5Mb4y', 'yes'),
+('Maria', 'Egg', '1993-02-10', 'Mrs', 'Albania', 'sss@mail.com', '2105555555', 'angelos', '$2y$10$o4syy69nb0ULEhT5Nqu4Xu8mPP5l1T7I7Q0g1BmEo26PZ5wV/lv/K', 'yes');
 
 --
 -- Indexes for dumped tables
@@ -85,19 +85,9 @@ CREATE TABLE `messages` (
 --
 
 INSERT INTO `messages` (`fname`, `lname`, `email`, `message`) VALUES
-('Angelos', 'Dddd', 'newuser@mail.gr', 'aa');
+('Angelos', 'Baby', 'newuser@mail.gr', 'I just dont know what to do with myself.');
 
---
--- Indexes for dumped tables
---
 
---
--- Indexes for table `messages`
---
-ALTER TABLE `messages`
-  ADD PRIMARY KEY (`email`),
-  ADD KEY `index_email_msg` (`email`);
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

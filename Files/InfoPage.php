@@ -26,7 +26,7 @@
         <p>Here are some "spoilers" of what our conference is all about: Wonder what technologies and trends will dominate the web development in 2020 and 2025? Watch this interesting talk on the topic.</p>
         
         <p style = 'text-align: center;'><iframe width="560" height="315" src="https://www.youtube.com/embed/24tQRwIRP_w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="W3Schools Free Online Web Tutorials" allowfullscreen></iframe></p>
-        
+        <br><br>
         
         
     </div>
