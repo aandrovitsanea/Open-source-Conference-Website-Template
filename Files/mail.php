@@ -9,11 +9,11 @@
     </style>
 </head>
 <body>
-<!------------------------------------------ LOGO and MENY BAR -------------------------------------------------------->
+<!--- LOGO and MENY BAR -->
     <?php 
        include 'logo_navbar.php';
     ?><br>
-<!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
+    
 <div id="main">
 
 <?php
@@ -49,17 +49,17 @@ include("database_connection.php"); // import database connection
 // create query to upload the submitted data to the database
 $sql = "INSERT INTO `messages` (`fname`, `lname`, `email`, `message`) VALUES ('".$_POST['fname']."', '".$_POST['lname']."', '".$_POST['email']."', '".$_POST['message']."');";
 
-//εκτέλεση ερωτήματος στη βάση
+//perform a query
 $result = mysqli_query($connection, $sql);
 
 if ($result) {
-    //Εμφάνιση αποτελεσμάτων σε μορφή πίνακα
+    //print results / rows as table
     echo "<h4 style= 'color: purple'>Dear ".$_POST['fname'].", thank you very much for your message!</h4><br>";
     echo "<h4>We will come back to you as soon as possible.";
     echo "<h4>Anna, Leonidas";
 };
     
-//κλείσιμο σύνδεσης
+//close connection
 mysqli_close($connection);
 ?>
     

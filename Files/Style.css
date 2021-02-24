@@ -1,4 +1,4 @@
-/*--------------------------------GENERAL------------------------------------*/
+/*-----------GENERAL-----------*/
 
 h1 {
   text-align: center;
@@ -60,10 +60,15 @@ table {
 }
 
 ul { 
-	display: inline-block; 
-	text-align: left; 
+    display: inline-block; 
+    text-align: left; 
 }
-	
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
 #NavBar { /*The purple navigation bar*/
   list-style-type: none;
   margin: 0;
@@ -89,7 +94,7 @@ ul {
 }
 
 
-#main { /*The main div where all information is written*/
+#main { /*The main div is where all information is written*/
   margin: auto;
   width: 50%;
   background-color:   #d3d3d3;
@@ -97,14 +102,14 @@ ul {
   font-family: Futura, sans-serif;
 }
 
-#map_main { /*The main div where all information is written*/
+#map_main { /*The main map refers to the map at the index page*/
   margin: auto;
   width: 20%;
   padding: 10px;
   float: right;
 }
 
-#menu {
+#menu { /*The drop down menu div*/
   display: flex;
   justify-content: center;
 }
@@ -123,7 +128,7 @@ ul {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 #GreenButton:hover {
@@ -138,14 +143,14 @@ ul {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #RedButton:hover {
   background-color: red;
 }
 
-/*--------------------------------HOME PAGE------------------------------------*/
+/*-----------HOME PAGE-----------*/
 
 .zoomImage {
   transform-origin: right;
@@ -164,11 +169,11 @@ ul {
   margin-right: 0;
 }
 
-/*--------------------------------JURY PAGE------------------------------------*/
+/*-----------JURY PAGE-----------*/
 .zoom_jury:hover {
-  -ms-transform: scale(2); /* IE 9 */
-  -webkit-transform: scale(2); /* Safari 3-8 */
-  transform: scale(2); 
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 
 .zoom_jury {
@@ -190,7 +195,7 @@ ul {
   font-size: 14px;
 }
 
-/*--------------------------------LOCATION PAGE------------------------------------*/
+/*-----------LOCATION PAGE-----------*/
 .dropdown {
   float: left;
   overflow: hidden;
@@ -263,7 +268,7 @@ ul#hotelList li a{
 ul#hotelList li a:hover{
   color: black;
 }
-/*--------------------------------SUBSCRIBE FORM------------------------------------*/
+/*-----------SUBSCRIBE FORM-----------*/
 
 #subscription_form {
   border: 1px solid black;
@@ -273,25 +278,6 @@ ul#hotelList li a:hover{
   color: red
 }
 
-td, th {
-  text-align: left;
-  padding: 8px;
-}
-
 td.formTitle {
   text-align: right;
 }
-
-.form_error input {
-  border: 1px solid #D83D5A;
-}
-
-.form_error span {
-  width: 80%;
-  height: 35px;
-  margin: 3px 10%;
-  font-size: 1.1em;
-  color: #D83D5A;
-}
-
-

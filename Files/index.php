@@ -8,11 +8,11 @@
         ?>
     </style>
 </head>
-<body><!------------------------------------------ LOGO and MENY BAR -------------------------------------------------------->
+<body><!-- LOGO and MENY BAR --->
     <?php 
        include 'logo_navbar.php';
     ?><br>
-<!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
+<!-- ENLARGING IMAGE --->
     <?php 
         echo "<img id='map_main' class='zoomImage' height='100%' width='100%' src='img/map_athens.png'>"; 
     ?>

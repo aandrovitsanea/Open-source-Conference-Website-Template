@@ -9,7 +9,6 @@ if(!isset($_SESSION["email"])) // if no email is stored
 
 ?>
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,46 +35,32 @@ if(!isset($_SESSION["email"])) // if no email is stored
 </head>
 <body>
 
-<!------------------------------------------ LOGO -------------------------------------------------------->
+<!-- LOGO & MENU BAR -->
     <?php 
-        echo "<a href='index.php'>
-                <img id='logo' src='img/logo.png'>
-              </a>";  
+       include 'logo_navbar.php';
     ?><br>
-<!---------------------------------------- MENU BAR ------------------------------------------------------>
-    <div id="menu">
-        <ul id="NavBar">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="InfoPage.php">About</a></li>
-            <li><a href="LocationPage.php">Location</a></li>
-            <li><a href="JuryPage.php">Jury</a></li>
-            <li><a href="Program.php">Program</a></li>
-            <li><a href="subscribe_form.php">Subscribe</a></li>
-            <li><a href="contact_form.php">Contact us</a></li>
-        </ul>
-    </div>
+    
     <div id="main">
     
-        <!--<h3>The program of the conference</h3>-->  
-      
-
      <?php    
         include("database_connection.php"); // import database connection
         
         $user_data  = mysqli_query($connection, "SELECT `gender`, `fname` , `lname` FROM `registration` WHERE `email` = '".$_SESSION["email"]."';");
         $row = mysqli_fetch_assoc($user_data);
         if ($row['gender']!= 'non_bin'){        
-            echo "<h4 style='color:blue'>Hello, ".$row['gender']." ".$row['lname']."!</h4>";
+            echo "<h4 style='color:green'>Hello, ".$row['gender']." ".$row['lname']."!</h4>";
         }else{
             echo "<h4 style='color:blue'>Hello ".$row['fname']."!</h4>"; 
         }
         echo "<h4 style='color:#800080'>Welcome to the program of the scheduled talks.</h4>";
         
-        //κλείσιμο σύνδεσης
+        //close connection
         mysqli_close($connection);
      ?>
-<!--
-        <p style = 'text-align: right;'><a href="logout.php">Logout</a></p>   -->  
+     <form method="get" action="logout.php">
+        <button type="submit" id="RedButton">Logout</button>
+    </form>
+    <br><br><br>
      
     <table class = "center" id="ProgramTable"> 
         <tr >
@@ -262,9 +247,7 @@ if(!isset($_SESSION["email"])) // if no email is stored
             <td>The role of web technologies in sexism</td>
         </tr>
     </table>
-    <form method="get" action="logout.php">
-        <button type="submit" id="RedButton">Logout</button>
-    </form>
+    
     <footer>
         <p style = "font-size: 12px">Disclaimer: This site has been created in the framework of the final assignment of the undergraduate course "Web Technologies" of the Department of Informatics of the University of Pireaus. All names, titles of papers/presentation and photos are fictional, created with the tools <a href="https://www.name-generator.org.uk/">Name Generator</a>, <a href="https://www.rewordmyessay.com/essay-titles-generator/">Reword My Essay</a> and <a href="https://thispersondoesnotexist.com/">This Person Does Not Exist</a>.</p>
         <p style = "font-size: 12px">Read our <a href="terms_of_use.php">terms of use</a>.</p>

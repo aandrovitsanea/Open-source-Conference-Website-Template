@@ -9,10 +9,11 @@
     </style>
 </head>
 <body>
-<!------------------------------------------ LOGO and MENY BAR -------------------------------------------------------->
+<!--- LOGO and MENY BAR --->
     <?php 
        include 'logo_navbar.php';
     ?><br>
+    
     <div id="main">
         <h2>Welcome to our Information page</h2>
         

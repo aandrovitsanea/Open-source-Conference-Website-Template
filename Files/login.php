@@ -9,11 +9,11 @@
     </style>
 </head>
 <body>
-<!------------------------------------------ LOGO and MENY BAR -------------------------------------------------------->
+<!-- LOGO and MENY BAR --->
     <?php 
        include 'logo_navbar.php';
     ?><br>
-<!-------------------------------------- ENLARGING IMAGE ------------------------------------------------->
+<!--- ENLARGING IMAGE --->
     
     <div id="main">
    <h3>Login to access the program of the conference</h3>

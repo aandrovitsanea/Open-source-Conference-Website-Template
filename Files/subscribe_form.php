@@ -9,7 +9,7 @@
     </style>
 </head>
 <body>
-<!------------------------------------------ LOGO and MENY BAR -------------------------------------------------------->
+<!--- LOGO and MENY BAR -->
     <?php 
        include 'logo_navbar.php';
     ?><br>
@@ -23,25 +23,25 @@
         <th colspan="4"><h3>Registration form</h3></th>
     </tr>
     <tr>
-        <!-------------------------------------- FIRST NAME ------------------------------------------------->
+        <!--- FIRST NAME --->
         <td class="formTitle"><label for="fname">First name</label></td>
         <td colspan="3"><input pattern= "^[α-ωΑ-ΩA-Za-zάέίύήόώΆΈΊΎΌΏΉ]+$" placeholder = "Please type in your first name" type="text" id= "fname" name="fname" size="30" onfocus="de_Error('fnameError')" required>
         <br><small id="fnameError" class="errorText" hidden>Make sure that your are using only Greek or Latin characters</small>
         </td>
     <tr>
-        <!-------------------------------------- LAST NAME ------------------------------------------------->
+        <!--- LAST NAME --->
         <td class="formTitle"><label for="lname">Last name</label></td>
         <td colspan="3"><input placeholder="Please type in your last name" type="text" id="lname" name="lname" size="30" onfocus="de_Error('lnameError')" required>
         <br><small id="lnameError" class="errorText" hidden>Make sure that your are using only Greek or Latin characters</small>
         </td>
     </tr>
-        <!-------------------------------------- BIRTHDAY ------------------------------------------------->
+        <!--- BIRTHDAY --->
     <tr>
         <td style="word-wrap: break-word; width=50%" class="formTitle"><label for="dob">Date of birth</label></td>
         <td colspan="2" style='width=100%'><input type="date" id="dob" name="dob" onfocus="de_Error('dobError')" required>
         <br><small id="dobError" class="errorText" hidden>Please enter your date of birth</small>
         </td>
-        <!-------------------------------------- GENDER ------------------------------------------------->
+        <!-- GENDER --->
     <tr>
         <td class="formTitle"><label>Gender</label></td>
         <td><label for="gender">Female</label>
@@ -53,7 +53,7 @@
             <br><small id="genderError" class="errorText" hidden>Please enter your gender</small>
         </td>
     </tr>
-        <!-------------------------------------- COUNTRY ------------------------------------------------->
+        <!--- COUNTRY --->
     <tr>
         <td class="formTitle"><label for="country">Country</label></td>
         <td colspan="2">
@@ -310,7 +310,7 @@
                 <br><small id="countryError" class="errorText" hidden>Please select a country</small>
             </td>
             </tr>    
-        <!-------------------------------------- E-MAIL ------------------------------------------------->
+        <!--- E-MAIL --->
         <tr>
             <td class="formTitle"><label for="email">Email</label></td>
             <td colspan ="2"><input placeholder="E-mail" type="email" name="email" id="email" pattern=".+@.+{.}.+" onfocus="de_Error('emailError')" required>
@@ -318,27 +318,27 @@
         </tr>
 
         </tr>
-        <!------------------------------------- TELEPHONE ------------------------------------------------>
+        <!--- TELEPHONE --->
         <tr>
             <td class="formTitle"><label for="telephone">Telephone</label></td>
             <td colspan ="2"><input pattern= "^[0-9]{10}$" placeholder="Telephone" type="text" name="telephone" id="telephone" maxlength ="10" onfocus="de_Error('phoneError')" required>
             <br><small id="phoneError" class="errorText" hidden>Please enter your telephone</small>
         </td>
         </tr>
-        <!------------------------------------- USERNAME ------------------------------------------------>
+        <!-- USERNAME --->
         <tr>
         <td class="formTitle"><label for="username">Username</label></td>
         <td colspan="2"><input pattern= "^[a-z]{6-8}$" placeholder="Username (6 - 8 characters)" type="text" id="username" name="username" minlength = "6" maxlength ="8" onfocus="de_Error('usernameError')" required>
         <br><small id="usernameError" class="errorText" hidden>Please enter your username</small></td>
     </tr>
-        <!------------------------------------- PASSWORD ------------------------------------------------>
+        <!--- PASSWORD --->
         <tr>
             <td class="formTitle"><label for="password">Password</label></td>
             <td colspan ="2"><input pattern= "^[a-z]{6-8}$" placeholder="Password (6 - 8 characters)" type="password" name="password" id="password" minlength = "6" maxlength ="8" onfocus="de_Error('passwordError')" required>
             <br><small id="passwordError" class="errorText" hidden>Please enter a valid password</small>
         </td>
         </tr>
-        <!--------------------------------- CONFIRM PASSWORD -------------------------------------------->
+        <!--- CONFIRM PASSWORD --->
         <tr>
             <td class="formTitle"><label for="conf_password">Confirm Password</label></td>
             <td colspan ="2"><input pattern= "^[a-z]{6-8}$" type="password" name="conf_password" id="conf_password" minlength = "6" maxlength ="8" required onfocus="de_Error('passwordError')">

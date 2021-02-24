@@ -9,13 +9,13 @@
     </style>
 </head>
 <body>
-<!------------------------------------------ LOGO -------------------------------------------------------->
+<!-- LOGO --->
     <?php 
         echo "<a href='index.php'>
                 <img id='logo' src='img/logo.png'>
               </a>";  
     ?><br>
-<!---------------------------------------- MENU BAR ------------------------------------------------------>
+<!--- MENU BAR --->
     <div id="menu">
         <ul id="NavBar">
             <li><a href="index.php">Home</a></li>
@@ -38,7 +38,7 @@
     </div>
     <br>
     <div id="main">
-<!----------------------------------- LOCATION & INSTRUCTIONS -------------------------------------------->
+<!-- LOCATION & INSTRUCTIONS --->
                 
         <h2 id="loc">Where To Find Us</h2>
         <p>
@@ -47,12 +47,12 @@
         <p>
             The venue is a 2-minute walk from the nearest metro-station; <a href="https://en.wikipedia.org/wiki/Syntagma_metro_station" style="text-decoration:none;color:blue;">Syntagma</a>.
         </p>
-<!----------------------- EMBED GOOGLE MAP FROM: https://www.embedgooglemap.net/ ------------------------->
+<!--- EMBED GOOGLE MAP FROM: https://www.embedgooglemap.net/ --->
         <div id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1111.954170666153!2d23.735067268376994!3d37.97523107488494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd3edda00197%3A0xc496fdfe023ef242!2sMonument%20of%20the%20Unknown%20Soldier!5e0!3m2!1sen!2sgr!4v1614035008681!5m2!1sen!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
         
-<!----------------------------------- CITY GUIDE --------------------------------------------------->        
+<!--- CITY GUIDE --->        
         <h2 id="stay">Where To Stay</h2>
         <p>
             There is a great variety of hotel in the city of Athens. For options 1 - 6 you can get a discount, upon mentioning of our conference. <br> <b>Hurry up and book upfront!</b>
@@ -101,7 +101,7 @@
             <br><br>    
     
         
-<!----------------------------------- MORE CONFERENCES --------------------------------------------------->
+<!--- MORE CONFERENCES --->
         <h2 id ="other_conf">More Conferences Like Ours</h2>
         <ul>
         <li>

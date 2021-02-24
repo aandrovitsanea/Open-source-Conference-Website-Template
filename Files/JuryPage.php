@@ -9,14 +9,15 @@
     </style>
 </head>
 <body>
-<!------------------------------------------ LOGO & MENU BAR -------------------------------------------------------->
+
+<!-- LOGO & MENU BAR -->
     <?php 
        include 'logo_navbar.php';
     ?><br>
         <h3>Get to know our jury</h3>  
 
     <table id="jury_table">
-<!------------------------------------------ NAMES & PHOTOW -------------------------------------------------------->
+<!-- NAMES & PHOTOS -->
         <tr>
             <th>Prof. David Garcia</th>
             <th>Prof. Donna Miller</th>
@@ -37,7 +38,7 @@
                 echo "<img class = 'zoom_jury' src='img/Kira.png'>";  
             ?></td>
         </tr>
-<!------------------------------------------ CAPTIONS & PAPERS -------------------------------------------------------->
+<!-- CAPTIONS & PAPERS -->
         <tr>
             <td class="caption">Academic Assistant Professor University of California, Berkeley</td>
             <td class="caption">Associate Chair of the Office of Investor Diversity of the University of Pireaus, Greece</td>

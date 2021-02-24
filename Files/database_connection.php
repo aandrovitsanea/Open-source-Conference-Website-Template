@@ -6,15 +6,15 @@ $username = "root";
 $password = "";
 $dbname = "personal";
 
-// Δημιουργία σύνδεσης
+// Establish connection
 $connection = mysqli_connect($servername, $username, $password, $dbname);
 
-// Έλεγχος σύνδεσης
+// Check connection σύνδεσης
 if (!$connection) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-//ορισμός charset της σύνδεσης ώστε να παρουσιάζονται τα ελληνικά σωστά
+// set charset of connection to print greek letters correctly
 mysqli_set_charset($connection, "utf8");
 
 ?>
