@@ -311,11 +311,11 @@
             </td>
             </tr>    
         <!-------------------------------------- E-MAIL ------------------------------------------------->
-            <tr>
-                <td class="formTitle"><label for="email">Email</label></td>
-                <td colspan ="2"><input placeholder="E-mail" type="email" name="email" id="email" pattern=".+@.+{.}.+" onfocus="de_Error('emailError')" required>
-                <br><small id="emailError" class="errorText" hidden>Please enter a valid E-mail</small></td>
-            </tr>
+        <tr>
+            <td class="formTitle"><label for="email">Email</label></td>
+            <td colspan ="2"><input placeholder="E-mail" type="email" name="email" id="email" pattern=".+@.+{.}.+" onfocus="de_Error('emailError')" required>
+            <br><small id="emailError" class="errorText" hidden>Please enter a valid E-mail</small></td>
+        </tr>
 
         </tr>
         <!------------------------------------- TELEPHONE ------------------------------------------------>

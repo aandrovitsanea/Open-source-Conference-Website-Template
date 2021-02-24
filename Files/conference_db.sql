@@ -24,10 +24,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `conference_db`
+-- Table structure for table `registration`
 --
 
-CREATE TABLE `conference_db` (
+CREATE TABLE `registration` (
   `fname` varchar(100) NOT NULL,
   `lname` varchar(100) NOT NULL,
   `dob` date NOT NULL,
@@ -41,10 +41,10 @@ CREATE TABLE `conference_db` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping dummy data for table `conference_db`
+-- Dumping dummy data for table `registration`
 --
 
-INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `username`, `password`, `consent`) VALUES
+INSERT INTO `registration` (`fname`, `lname`, `dob`, `gender`, `country`, `email`, `telephone`, `username`, `password`, `consent`) VALUES
 ('Angelos', 'Egg', '2021-02-10', 'Mrs', 'Albania', 'adad@mail.com', '2105555555', 'angelos', '$2y$10$vyL2Exm88X7kc3llk3FXIO8iD.y1l540NUZmR/ZNuW0V2Q.UpG..u', 'yes'),
 ('Angelos', 'Egg', '2021-02-10', 'Mrs', 'Albania', 'anna@mail.com', '2105555555', 'angelos', '$2y$10$y.lOcrdQYfWSBt8feZHQEe8BuRuv4hfiVUxUKGyvf4.BIX5aNFFSC', 'yes'),
 ('Angelos', 'Egg', '2021-02-10', 'Mrs', 'Albania', 'bb@mail.com', '2105555555', 'angelos', '$2y$10$8Cn7gKryq/tdT6kM0h7SluHtxTyrzBUoBRFtc5hWSeuuqAB35tNlK', 'yes'),
@@ -57,12 +57,46 @@ INSERT INTO `conference_db` (`fname`, `lname`, `dob`, `gender`, `country`, `emai
 --
 
 --
--- Indexes for table `conference_db`
+-- Indexes for table `registration`
 -- Enable quicker queries
 --
-ALTER TABLE `conference_db`
+ALTER TABLE `registration`
   ADD PRIMARY KEY (`email`),
   ADD KEY `index_email` (`email`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+--
+-- Table structure for table `messages`
+--
+
+CREATE TABLE `messages` (
+  `fname` varchar(100) NOT NULL,
+  `lname` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `message` varchar(1000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `messages`
+--
+
+INSERT INTO `messages` (`fname`, `lname`, `email`, `message`) VALUES
+('Angelos', 'Dddd', 'newuser@mail.gr', 'aa');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `messages`
+--
+ALTER TABLE `messages`
+  ADD PRIMARY KEY (`email`),
+  ADD KEY `index_email_msg` (`email`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

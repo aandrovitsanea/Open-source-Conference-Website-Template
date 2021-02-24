@@ -37,6 +37,7 @@ if(!isset($_SESSION["email"])) // if no email is stored
             <li><a href="JuryPage.php">Jury</a></li>
             <li><a href="Program.php">Program</a></li>
             <li><a href="subscribe_form.php">Subscribe</a></li>
+            <li><a href="contact_form.php">Contact us</a></li>
         </ul>
     </div>
     <div id="main">
@@ -47,7 +48,7 @@ if(!isset($_SESSION["email"])) // if no email is stored
      <?php    
         include("database_connection.php"); // import database connection
         
-        $user_data  = mysqli_query($connection, "SELECT `gender`, `fname` , `lname` FROM `conference_db` WHERE `email` = '".$_SESSION["email"]."';");
+        $user_data  = mysqli_query($connection, "SELECT `gender`, `fname` , `lname` FROM `registration` WHERE `email` = '".$_SESSION["email"]."';");
         $row = mysqli_fetch_assoc($user_data);
         if ($row['gender']!= 'non_bin'){        
             echo "<h4 style='color:blue'>Hello, ".$row['gender']." ".$row['lname']."!</h4>";
@@ -55,6 +56,9 @@ if(!isset($_SESSION["email"])) // if no email is stored
             echo "<h4 style='color:blue'>Hello ".$row['fname']."!</h4>"; 
         }
         echo "<h4 style='color:#800080'>Welcome to the program of the scheduled talks.</h4>";
+        
+        //κλείσιμο σύνδεσης
+        mysqli_close($connection);
      ?>
         <form method="get" action="logout.php">
             <button type="submit">Logout</button>

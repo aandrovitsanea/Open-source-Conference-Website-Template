@@ -33,6 +33,7 @@
             <li><a href="JuryPage.php">Jury</a></li>
             <li><a href="Program.php">Program</a></li>
             <li><a href="subscribe_form.php">Subscribe</a></li>
+            <li><a href="contact_form.php">Contact us</a></li>
         </ul>
     </div>
     <br>

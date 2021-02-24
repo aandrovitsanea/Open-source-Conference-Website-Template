@@ -3,7 +3,7 @@
         include("database_connection.php"); // import database connection
         
         
-        $password = mysqli_query($connection, "SELECT `password` FROM `conference_db` WHERE `email` = '".$_POST['email']."';"); // extract the hash saved as password in the database
+        $password = mysqli_query($connection, "SELECT `password` FROM `registration` WHERE `email` = '".$_POST['email']."';"); // extract the hash saved as password in the database
 
         $row = mysqli_fetch_assoc($password); // fetch the result of the query
 
@@ -17,6 +17,9 @@
             echo "<h4 style= 'color:red;';>You haven't signed up to our conference.<br><br></h4>";
             echo "<h4>Please sign up <a href='subscribe_form.php'>here</a>.</h4>";
         }
+        
+        //κλείσιμο σύνδεσης
+        mysqli_close($connection);
 
         ?> 
         
