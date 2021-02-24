@@ -1,55 +1,55 @@
 /*--------------------------------GENERAL------------------------------------*/
 
 h1 {
-    text-align: center;
-    font-style: oblique;
-    font-size: 40px;
-    font-family: Futura, sans-serif;
+  text-align: center;
+  font-style: oblique;
+  font-size: 40px;
+  font-family: Futura, sans-serif;
 }
 
 h2 {
-    color:  #800080;
-    font-size: 24px;
-    font-size: 1.875em;
-    text-align: center;
-    font-family: Futura, sans-serif;
+  color:  #800080;
+  font-size: 24px;
+  font-size: 1.875em;
+  text-align: center;
+  font-family: Futura, sans-serif;
 }
 
 h3 {
-    color:  #800080;
-    font-size: 23px;
-    font-size: 1.5em;
-    text-align: center;
-    font-family: Futura, sans-serif;
+  color:  #800080;
+  font-size: 23px;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Futura, sans-serif;
 }
 
 h4 {
-    color:  black;
-    font-size: 20px;
-    font-size: 1.5em;
-    text-align: center;
-    font-family: Futura, sans-serif;
+  color:  black;
+  font-size: 20px;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Futura, sans-serif;
 }
 
 
 p {
-    font-size: 18px;
-    text-align: justify;
-    line-height: 1.6;
-    font-family: Futura, sans-serif;     
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.6;
+  font-family: Futura, sans-serif;     
 }
 
 body {
-    height: 100%;
-    margin: 0;
-    background-color: #d3d3d3;
-    text-align: center;
-    font-family: Futura, sans-serif;
+  height: 100%;
+  margin: 0;
+  background-color: #d3d3d3;
+  text-align: center;
+  font-family: Futura, sans-serif;
 }
 
 form {
-    display: inline-block;
-    font-family: Futura, sans-serif;
+  display: inline-block;
+  font-family: Futura, sans-serif;
 }
 
 table {
@@ -62,48 +62,135 @@ table {
 ul { 
 	display: inline-block; 
 	text-align: left; 
-	}
+}
 	
-ol { 
-	display: inline-block; 
-	text-align: left; 
-	}
-
-#sub_table {
-  border-spacing: 20px;  
-  text-align:"left";
-  margin-left:auto;
-  margin-right:auto;
-  font-family: Futura, sans-serif;
-  width: 100%;  
+#NavBar { /*The purple navigation bar*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline; /*By default, <li> elements are block elements. Here, we remove the line breaks before and after each list item, to display them on one line*/
+  overflow: hidden; /*overflow:hidden is added to the ul element to prevent li elements from going outside of the list.*/
 }
 
-
-
-#NavBar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline; /*By default, <li> elements are block elements. Here, we remove the line breaks before and after each list item, to display them on one line*/
-    overflow: hidden; /*overflow:hidden is added to the ul element to prevent li elements from going outside of the list.*/
-}
-
-#NavBar li {
-    float: left; /*use float to get block elements to slide next to each other*/
-    background-color: purple; /*Add a purple background-color to each a element*/
+#NavBar li { 
+  float: left; /*use float to get block elements to slide next to each other*/
+  background-color: purple; /*Add a purple background-color to each a element*/
 }
 
 #NavBar li a{
-    display: block; /*Allows us to specify padding (and height, width, margins, etc.)*/
-    padding: 8px;   /*Since block elements take up the full width available, they cannot float next to each other. Therefore, specify some padding to make them look good*/
-    text-decoration: none; /*Removes the underline that hyperlinks have*/
-    color: white;
+  display: block; /*Allows us to specify padding (and height, width, margins, etc.)*/
+  padding: 8px;   /*Since block elements take up the full width available, they cannot float next to each other. Therefore, specify some padding to make them look good*/
+  text-decoration: none; /*Removes the underline that hyperlinks have*/
+  color: white;
 }
 
 #NavBar li a:hover {
-    background-color: plum;
+  background-color: plum;
 }
 
+
+#main { /*The main div where all information is written*/
+  margin: auto;
+  width: 50%;
+  background-color:   #d3d3d3;
+  padding: 3px;
+  font-family: Futura, sans-serif;
+}
+
+#map_main { /*The main div where all information is written*/
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+  float: right;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+#GreenButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#GreenButton:hover {
+  background-color: green;
+}
+
+#RedButton {
+  background-color:rgba(255, 0, 0, 0.548); /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+#RedButton:hover {
+  background-color: red;
+}
+
+/*--------------------------------HOME PAGE------------------------------------*/
+
+.zoomImage {
+  transform-origin: right;
+  padding: 50px;
+  transition: transform .2s;
+  width: 100%;
+  height: 100%;
+  margin-right: 0;
+}
+
+
+.zoomImage:hover {
+  -ms-transform: scale(3); /* IE 9 */
+  -webkit-transform: scale(3); /* Safari 3-8 */
+  transform: scale(3);   
+  margin-right: 0;
+}
+
+/*--------------------------------JURY PAGE------------------------------------*/
+.zoom_jury:hover {
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
+  transform: scale(2); 
+}
+
+.zoom_jury {
+  transition: transform .2s;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+#jury_table {
+  font-family: Futura, sans-serif;
+  width: 80%;
+  border-spacing: 20px 8px;
+}
+
+.caption {
+  font-style: italic;
+  color: #494647;
+  font-size: 14px;
+}
+
+/*--------------------------------LOCATION PAGE------------------------------------*/
 .dropdown {
   float: left;
   overflow: hidden;
@@ -150,86 +237,41 @@ ol {
   display: block;
 }
 
-#main { /*The main div where all information is written*/
-    margin: auto;
-    width: 50%;
-    background-color:   #d3d3d3;
-    padding: 3px;
-    font-family: Futura, sans-serif;
-}
-
-#map_main { /*The main div where all information is written*/
-    margin: auto;
-    width: 20%;
-    padding: 10px;
-    float: right;
-}
-
-#menu {
-    display: flex;
-    justify-content: center;
-}
-
-#logo {
-    display: block;
-    margin: auto;
-    width: 30%;
-}
-
-#jury_pic {
-    display: block;
-    margin: auto;
-    width: 100%;
-}
-
-#tab_jury{
-    width:1000px
-}
-/*--------------------------------HOME PAGE------------------------------------*/
-
-table.center {
-  margin-left: -20px; 
-  margin-right: auto;
-}
-
-.zoom {
-  padding: 50px;
-  transition: transform .2s;
-  width: 100%;
-  height: 100%;
-  margin-right: 0;
-}
-
-
-.zoom:hover {
-  -ms-transform: scale(3); /* IE 9 */
-  -webkit-transform: scale(3); /* Safari 3-8 */
-  transform: scale(3);   
-  margin-right: 0;
-}
-
-
-.zoom_jury:hover {
-  -ms-transform: scale(2); /* IE 9 */
-  -webkit-transform: scale(2); /* Safari 3-8 */
-  transform: scale(2); 
-}
 #map { /*Google maps embed map*/
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .MoreConf {
-    display: block;
-    margin: auto;
-    width: 50%;
-    font-family: Futura, sans-serif;
+  display: block;
+  margin: auto;
+  width: 50%;
+  font-family: Futura, sans-serif;
+}
+
+#hotelList{
+  width: 200%;
+}
+
+ul#hotelList li a{
+  display: block; /*Allows us to specify padding (and height, width, margins, etc.)*/
+  padding: 3px;
+  color: #494647;
+  text-decoration: none;
+}
+
+ul#hotelList li a:hover{
+  color: black;
+}
+/*--------------------------------SUBSCRIBE FORM------------------------------------*/
+
+#subscription_form {
+  border: 1px solid black;
 }
 
 .errorText {
   color: red
 }
-
 
 td, th {
   text-align: left;
@@ -238,14 +280,8 @@ td, th {
 
 td.formTitle {
   text-align: right;
-  
-.form_error span {
-  width: 80%;
-  height: 35px;
-  margin: 3px 10%;
-  font-size: 1.1em;
-  color: #D83D5A;
 }
+
 .form_error input {
   border: 1px solid #D83D5A;
 }
@@ -258,6 +294,4 @@ td.formTitle {
   color: #D83D5A;
 }
 
-.form_error input {
-  border: 1px solid #D83D5A;
-}
+
