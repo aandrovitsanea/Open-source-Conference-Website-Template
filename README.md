@@ -10,36 +10,36 @@ Feel free to `git clone` the project and adjust the content to your needs.
 
 The template includes the following funcionalities:
 
-1. Home page with logo and text [(`Files/index.php`)](Files/index.php)
+1. Home page with logo and text, [`index.php`](Files/index.php)
 
-2. Navigation bar through the pages [(`Files/logo_navbar.php`)](Files/logo_navbar.php)
+2. Navigation bar through the pages, [`logo_navbar.php`](Files/logo_navbar.php)
 
-3. Info page to present the scope of the conference [(`Files/InfoPage.php`)](Files/InfoPage.php)
+3. Info page to present the scope of the conference,  [`InfoPage.php`](Files/InfoPage.php)
 
-4. Jury page to include the colleagues participating as jurors [(`Files/JuryPage.php`)](Files/JuryPage.php)
+4. Jury page to include the colleagues participating as jurors, [`JuryPage.php`](Files/JuryPage.php)
 
-5. Location page to sum up information on the venue, city of conference and possibilities for accommodation [(`Files/LocationPage.php`)](Files/LocationPage.php)
+5. Location page to sum up information on the venue, city of conference and possibilities for accommodation, [`LocationPage.php`](Files/LocationPage.php)
 
-6. Program page, where the talks of the conference are presented in a tabular [(`Files/Program.php`)](Files/Program.php)
+6. Program page, where the talks of the conference are presented in a tabular, [`Program.php`](Files/Program.php)
 
-7. Sign up page, where a form is created for the participants to sign up [(`Files/subscribe_form.php`)](Files/subscribe_form.php)
+7. Sign up page, where a form is created for the participants to sign up, [`subscribe_form.php`](Files/subscribe_form.php)
 
-8. Contact page, where a form enables sending a message to the organizing committee for any interested party [(`Files/contact_form.php`)](Files/contact_form.php)
+8. Contact page, where a form enables sending a message to the organizing committee for any interested party, [`contact_form.php`](Files/contact_form.php)
 
-9. Terms of use page [(`Files/terms_of_use.php`)](Files/terms_of_use.php)
+9. Terms of use page, [`terms_of_use.php`](Files/terms_of_use.php)
 
 
 ## MySQL Database:
 
-* Sign up and Contact form interact with a database created with the [`Files/conference_db.sql`](Files/conference_db.sql) script
+* Sign up and Contact form interact with a database created with the [`conference_db.sql`](Files/conference_db.sql) script
 
-* Scripts [`Files/login.php`](Files/login.php), [`Files/login_script.php`](Files/login_script.php) and [`Files/mail.php`](Files/mail.php) enable the interaction of the website with the database
+* Scripts [`login.php`](Files/login.php), [`login_script.php`](Files/login_script.php) and [`mail.php`](Files/mail.php) enable the interaction of the website with the database
 
 * Password is passed via a hash function in order only for the hash of the password to be stored in the database
 
 ## JavaScript controls
 
-The [`Files/check_entries.js`](Files/check_entries.js) script performs controls, ensuring that:
+The [`check_entries.js`](Files/check_entries.js) script performs controls, ensuring that:
 
 * First and last name consists only of letters
 
