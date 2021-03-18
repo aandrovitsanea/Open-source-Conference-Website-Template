@@ -1,6 +1,8 @@
 # Conference Website Template
 
-This project offers a DIY template for making your own conference website. It is programmed in `html`, `php`, `css` and `JavaScript`.
+This project offers a DIY template for making your own conference website. 
+
+It is programmed in `html`, `php`, `css` and `JavaScript`.
 
 Feel free to `git clone` the project and adjust the content to your needs.
 
@@ -8,28 +10,32 @@ Feel free to `git clone` the project and adjust the content to your needs.
 
 The template includes the following funcionalities:
 
-1. Home page with logo and text.
+1. Home page with logo and text (`Files/index.php`)
 
-2. Navigation bar through the pages
+2. Navigation bar through the pages (`Files/logo_navbar.php`)
 
-3. Info page to present the scope of the conference
+3. Info page to present the scope of the conference (`Files/InfoPage.php`)
 
-4. Jury page to include the colleagues participating as jurors.
+4. Jury page to include the colleagues participating as jurors (`Files/JuryPage.php`)
 
-5. Location page to sum up information on the venue, city of conference and possibilities for accommodation
+5. Location page to sum up information on the venue, city of conference and possibilities for accommodation (`Files/LocationPage.php`)
 
-6. Program page, where the talks of the conference are presented in a tabular.
+6. Program page, where the talks of the conference are presented in a tabular (`Files/Program.php`)
 
-7. Sign up page, where a form is created for the participants to sign up.
+7. Sign up page, where a form is created for the participants to sign up (`Files/subscribe_form.php`)
 
-8. Contact page, where a form enables sending a message to the organizing comittee for any interested party.
+8. Contact page, where a form enables sending a message to the organizing committee for any interested party (`Files/contact_form.php`)
+
+9. Terms of use page (`Files/terms_of_use.php`)
 
 
 ## MySQL Database:
 
-* Sign up and Contact form interact with a database created with the `conference_db.sql` script.
+* Sign up and Contact form interact with a database created with the `Files/conference_db.sql` script
 
-* Password is passed via a hash funtion in order only for the hash of the password to be stored in the database.
+* Scripts `Files/login.php`, `Files/login_script.php` and `Files/mail.php` enable the interaction of the website with the database
+
+* Password is passed via a hash function in order only for the hash of the password to be stored in the database
 
 ## JavaScript controls
 
