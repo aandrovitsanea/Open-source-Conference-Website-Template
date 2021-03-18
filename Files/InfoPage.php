@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Info Page</title>
     <style>
         <?php 
-         include 'Style.css'; 
+         include 'logo_navbar.php';
         ?>
     </style>
 </head>
-<body>
-<!--- LOGO and MENY BAR --->
-    <?php 
-       include 'logo_navbar.php';
-    ?><br>
-    
+<body>    
     <div id="main">
         <h2>Welcome to our Information page</h2>
         

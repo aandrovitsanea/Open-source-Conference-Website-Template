@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home Page</title>
+    <title>Terms of Use</title>
     <style>
         <?php 
-         include 'Style.css'; 
+         include 'logo_navbar.php';
         ?>
     </style>
 </head>
 <body>
-<!--- LOGO and MENY BAR --->
-    <?php 
-       include 'logo_navbar.php';
-    ?><br>
     <div id="main">
         <h2>Website Terms of Use</h2>
 

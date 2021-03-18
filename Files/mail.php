@@ -4,15 +4,11 @@
     <title>Contact form</title>
     <style>
         <?php 
-         include 'Style.css'; 
+         include 'logo_navbar.php';
         ?>
     </style>
 </head>
 <body>
-<!--- LOGO and MENY BAR -->
-    <?php 
-       include 'logo_navbar.php';
-    ?><br>
     
 <div id="main">
 

@@ -4,16 +4,11 @@
     <title>Jury</title>
     <style>
         <?php 
-         include 'Style.css'; 
+         include 'logo_navbar.php';
         ?>
     </style>
 </head>
 <body>
-
-<!-- LOGO & MENU BAR -->
-    <?php 
-       include 'logo_navbar.php';
-    ?><br>
         <h3>Get to know our jury</h3>  
 
     <table id="jury_table">

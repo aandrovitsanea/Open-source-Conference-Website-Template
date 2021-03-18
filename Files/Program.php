@@ -15,7 +15,7 @@ if(!isset($_SESSION["email"])) // if no email is stored
 <title>Program</title>
     <style>
         <?php 
-         include 'Style.css'; 
+         include 'logo_navbar.php';
         ?>
         table {
             font-family: arial, sans-serif;
@@ -34,11 +34,6 @@ if(!isset($_SESSION["email"])) // if no email is stored
     </style>
 </head>
 <body>
-
-<!-- LOGO & MENU BAR -->
-    <?php 
-       include 'logo_navbar.php';
-    ?><br>
     
     <div id="main">
     
