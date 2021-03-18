@@ -1,4 +1,4 @@
-# Conference Website Template
+# Open-source Conference Website Template
 
 This project offers a DIY template for making your own conference website. 
 
