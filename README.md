@@ -10,7 +10,7 @@ Feel free to `git clone` the project and adjust the content to your needs.
 
 The template includes the following funcionalities:
 
-1. Home page with logo and text, [`index.php`](Files/index.php)
+1. Home page with logo and text ([`index.php`](Files/index.php))
 
 2. Navigation bar through the pages, [`logo_navbar.php`](Files/logo_navbar.php)
 
