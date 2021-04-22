@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<metacharset="utf-8">
     <style>
         <?php 
          include 'Style.css'; 
